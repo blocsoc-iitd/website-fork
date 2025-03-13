@@ -1,4 +1,3 @@
-# Landing page for DevClub
+# Landing page for Blocsoc
 
-dev preview usually on nine.devclub.in
-main page on devclub.in
+This website, is a fork of Devclub IIT Delhi's [website](https://github.com/devclub-iitd/devclub-website) and Serves as a landing page for Blocsoc IIT Delhi.
