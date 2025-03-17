@@ -1,102 +1,52 @@
 [
 {
-    "title": "AI Square Speedathon 2025",
-    "date": "March 11, 2025",
-    "description": "Speed is your weapon, AI is your ally—can you outpace the rest in this Dev Contest?",
-    "image": "/events/ai-speedathon.jpg",
+    "title": "BC106",
+    "date": "September, 2025",
+    "description": "The Blockchain cohort to onboard university freshers & sophomores to Web3.",
+    "image": "/events/bc106.png",
     "location": "IIT Delhi",
-    "participants": "100+",
-    "registrationLink": "https://cringebut.fun",
-    "category": "Competition"
+    "participants": "150+",
+    "registrationLink": "https://github.com/blocsoc-iitd",
+    "category": "Workshop"
 },
-    {
-        "title": "DevClub Summer of Code",
-        "date": "June 1, 2024",
-        "description": "5-week coding program for freshers, with mentorship, real projects, and portfolio building.",
-        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop",
-        "location": "Virtual & IIT Delhi",
-        "participants": "150+",
-        "registrationLink": "https://summerofcode.devclub.in",
-        "category": "Program"
-    },
-    {
-        "title": "Winter DSoC",
-        "date": "January 1, 2024",
-        "description": "A freshers' coding revival with a leaderboard for motivation.",
-        "image": "/events/dsoc.jpg",
-        "location": "IIT Delhi",
-        "participants": "300+",
-        "registrationLink": "https://hackathon.devclub.in",
-        "category": "Hackathon"
-    },
-    {
-        "title": "Pathway LLM bootcamp",
-        "date": "August 1, 2024",
-        "description": "Advanced LLM strategies, building RAG pipelines, and managing production-ready AI stacks.",
-        "image": "/events/llm.jpg",
-        "location": "LHC, IIT Delhi",
-        "participants": "100+",
-        "registrationLink": "https://workshops.devclub.in",
-        "category": "Workshop"
-    },
-    {
-        "title": "AWS Community Day",
-        "date": "September 21, 2024",
-        "description": "Fun networking and AWS workshops with over 200 attendees at IIT Delhi.",
-        "image": "/events/aws.jpg",
-        "location": "IIT Delhi",
-        "participants": "200+",
-        "registrationLink": "https://devclub.in/aws-community-day",
-        "category": "Workshop"
-    },
-    {
-        "title": "Hostel Level Workshops",
-        "date": "February 1, 2024",
-        "description": "Thirteen introductory development workshops, one in each hostel across IIT Delhi.",
-        "image": "/events/ws.jpg",
-        "location": "All IIT Delhi Hostels",
-        "participants": "500+",
-        "registrationLink": "https://devclub.in/hostel-workshops",
-        "category": "Workshop"
-    },
-    {
-        "title": "Speedathon",
-        "date": "March 31, 2024",
-        "description": "A fast-paced hackathon racing to build solutions using any available tools.",
-        "image": "/events/speedathon.jpg",
-        "location": "IIT Delhi",
-        "participants": "200+",
-        "registrationLink": "https://devclub.in/speedathon",
-        "category": "Hackathon"
-    },
-    {
-        "title": "Dev Discussion Series",
-        "date": "April 1, 2024",
-        "description": "Group discussions on building projects at hostel cluster level in IIT Delhi.",
-        "image": "/events/dev-discussion.jpg",
-        "location": "Hostel Clusters, IIT Delhi",
-        "participants": "N/A",
-        "registrationLink": "https://devclub.in/dev-discussion-series",
-        "category": "Talk"
-    },
-    {
-        "title": "CRAC CTF",
-        "date": "September 2, 2024",
-        "description": "Hands-on security workshop on penetration testing, OWASP Top 10, followed by a hackathon.",
-        "image": "/events/crac-ctf.jpg",
-        "location": "IIT Delhi",
-        "participants": "150+",
-        "registrationLink": "https://devclub.in/crac-ctf",
-        "category": "Workshop"
-    },
-    {
-        "title": "Internship Preparation Series",
-        "date": "May 1, 2024",
-        "description": "Collaborative program with ANCC, MathSoc, and OCS for internship readiness.",
-        "image": "/events/intern.jpg",
-        "location": "IIT Delhi",
-        "participants": "300+",
-        "registrationLink": "https://devclub.in/internship-preparation",
-        "category": "Workshop"
-    }
+{
+    "title": "ZK bootcamp",
+    "date": "summer break, 2024",
+    "description": "Zero knowledge bootcamp delving from cryptographic primitives to Snarks and Starks.",
+    "image": "/events/zkbootcamp.png",
+    "location": "Virtual & IIT Delhi",
+    "participants": "150+",
+    "registrationLink": "https://github.com/blocsoc-iitd",
+    "category": "Program"
+},
+{
+    "title": "Macaw",
+    "date": "2024",
+    "description": "Deep Dive into Avalanche protocol.",
+    "image": "/events/macaw.jpg",
+    "location": "Virtual & IIT Delhi",
+    "participants": "100+",
+    "registrationLink": "https://github.com/blocsoc-iitd",
+    "category": "Workshop"
+},
+{
+    "title": "Shipathon",
+    "date": "2 feb 2025",
+    "description": " hackathon to build Pow chain from scrath",
+    "image": "/events/dummy.png",
+    "location": "IIT Delhi",
+    "participants": "25+",
+    "registrationLink": "https://github.com/blocsoc-iitd",
+    "category": "Hackathon"
+},
+{
+    "title": "Dummy event",
+    "date": "2024",
+    "description": "because why not !!",
+    "image": "/events/dummy.png",
+    "location": "Earth",
+    "participants": "pi",
+    "registrationLink": "https://github.com/blocsoc-iitd",
+    "category": "Hackathon"
+}
 ]

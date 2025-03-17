@@ -1,0 +1,797 @@
+Script started on 2025-03-13 23:22:50+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="159" LINES="7"]
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0Ksh: line 1: vite: command not found
+[1G[0K⠙[1G[0K]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev[K[K[Kbi[Kuild
+[?2004l
+> vite-react-typescript-starter@0.0.0 build
+> vite build
+
+[1G[0Ksh: line 1: vite: command not found
+[1G[0K⠙[1G[0K]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm install
+[?2004l[1G[0K⠙[1G[0K[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m Unsupported engine {
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   package: [32m'react-router@7.1.1'[39m,
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   required: { node: [32m'>=20.0.0'[39m },
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   current: { node: [32m'v18.20.4'[39m, npm: [32m'10.7.0'[39m }
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m }
+[1G[0K⠹[1G[0K[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m Unsupported engine {
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   package: [32m'react-router-dom@7.1.1'[39m,
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   required: { node: [32m'>=20.0.0'[39m },
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m   current: { node: [32m'v18.20.4'[39m, npm: [32m'10.7.0'[39m }
+[1mnpm[22m [33mwarn[39m [94mEBADENGINE[39m }
+[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K[1mnpm[22m [33mwarn[39m [94mdeprecated[39m three-mesh-bvh@0.7.8: Deprecated due to three.js version incompatibility. Please use v0.8.0, instead.
+[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K
+added 340 packages, and audited 341 packages in 23s
+[1G[0K⠇[1G[0K
+[1G[0K⠇[1G[0K71 packages are looking for funding
+[1G[0K⠇[1G[0K  run `npm fund` for details
+[1G[0K⠇[1G[0K
+[31m[1m7[22m[39m vulnerabilities (1 [1mlow[22m, 5 [33m[1mmoderate[22m[39m, 1 [31m[1mhigh[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[1G[0K⠇[1G[0K]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.10[39m  [2mready in [0m[1m153[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+^C
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.10[39m  [2mready in [0m[1m161[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:05 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:08 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:31 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:36 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:51 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:33:52 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x7)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:34:52 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x8)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:34:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x9)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:35:41 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x10)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:35:54 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x11)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:35:57 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x12)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:36:02 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x13)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:36:14 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m [33m(x14)[39m
+^C
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.10[39m  [2mready in [0m[1m166[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:36:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:37:02 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m [33m(x2)[39m
+^C
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ ^[[Anpm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.10[39m  [2mready in [0m[1m143[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:39:45 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:39:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:40:22 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Background.tsx, /src/index.css[22m
+^C
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ npm run dev
+[?2004l
+> vite-react-typescript-starter@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.10[39m  [2mready in [0m[1m146[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:42:32 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:42:37 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:42:40 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:43:17 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:43:19 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:44:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:45:01 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x7)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:47:28 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x8)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:47:50 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x9)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:47:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x10)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:48:00 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x11)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:48:12 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x12)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:48:14 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x13)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:48:28 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x14)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:50:04 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x15)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:50:33 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:50:34 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:54:16 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:54:45 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:54:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:54:50 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x7)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:13 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/arnav-panjla/Desktop/Codes/website-fork/src/App.tsx: Unexpected token (229:38)
+
+[0m [90m 227 |[31m                       [33m<[31m[33ma[31m 
+ [90m 228 |[31m                         href[33m=[31m[32m"[31m
+[31m[1m>[22m[31m[90m 229 |[31m                         target[33m=[31m[32m"_blank"[31m
+ [90m     |[31m                                       [31m[1m^[22m[31m
+ [90m 230 |[31m                         rel[33m=[31m[32m"noopener noreferrer"[31m
+ [90m 231 |[31m                         className[33m=[31m[32m"text-blue-400 hover:text-blue-300 transition"[31m
+ [90m 232 |[31m                       [33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/arnav-panjla/Desktop/Codes/website-fork/src/App.tsx[39m:229:38
+[33m  227|                        <a 
+  228|                          href="
+  229|                          target="_blank"
+     |                                        ^
+  230|                          rel="noopener noreferrer"
+  231|                          className="text-blue-400 hover:text-blue-300 transition"[39m
+      at constructor (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:359:19)
+      at TypeScriptParserMixin.raise (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:3266:19)
+      at TypeScriptParserMixin.unexpected (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:3286:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6623:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6630:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6706:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6721:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6716:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6740:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6803:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6813:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10615:23)
+      at TypeScriptParserMixin.parseUpdate (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10600:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10580:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9489:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10434:61)
+      at TypeScriptParserMixin.parseExprOps (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10439:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10416:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10379:21)
+      at /home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9427:39
+      at TypeScriptParserMixin.tryParse (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:3604:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9427:18)
+      at TypeScriptParserMixin.parseExpressionBase (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10333:23)
+      at /home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10329:39
+      at TypeScriptParserMixin.allowInAnd (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:11951:12)
+      at TypeScriptParserMixin.parseExpression (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10329:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6686:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6658:21)
+      at TypeScriptParserMixin.jsxParseAttribute (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6707:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6721:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6716:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6740:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6752:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6803:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:6813:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10615:23)
+      at TypeScriptParserMixin.parseUpdate (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10600:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10580:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:9489:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10434:61)
+      at TypeScriptParserMixin.parseExprOps (/home/arnav-panjla/Desktop/Codes/website-fork/node_modules/@babel/parser/lib/index.js:10439:23)
+
+
+
+
+
+
+[1;1H[0J[2m3:55:14 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:18 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:23 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:27 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:29 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:55:31 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x7)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:56:07 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x8)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:56:12 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x9)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:56:21 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x10)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:56:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x11)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:57:02 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x12)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:57:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x13)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:57:07 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x14)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:57:08 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x15)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:57:14 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x16)[39m
+
+
+
+
+
+
+[1;1H[0J[2m3:59:52 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x17)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:03 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x18)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:15 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x19)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:17 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x20)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:20 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x21)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x22)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:29 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x23)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:33 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x24)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:42 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x25)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:00:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x26)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:01:10 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x27)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:01:14 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x28)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:01:16 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x29)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:01:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x30)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:01:39 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x31)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:02:45 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x32)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:05:46 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x33)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:05:50 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x34)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:08:11 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x35)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:08:17 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x36)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:08:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x37)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:09:01 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x38)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:09:07 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x39)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:11:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m4:11:11 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+[1;1H[0J[2m4:12:03 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m4:12:34 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.tsx, /src/index.css[22m
+
+
+
+
+
+
+[1;1H[0J[2m4:18:36 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+^C
+]0;arnav-panjla@archlinux:~/Desktop/Codes/website-fork[?2004h[arnav-panjla@archlinux website-fork]$ 
+Script done on 2025-03-14 04:20:42+05:30 [COMMAND_EXIT_CODE="0"]

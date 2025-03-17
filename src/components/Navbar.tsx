@@ -12,11 +12,11 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-              src="/LogoDarkMode.png" 
-              alt="DevClub Logo" 
+              src="https://github.com/blocsoc-iitd.png" 
+              alt="Blocsoc Logo" 
               className="h-8 w-auto"
               />
-              <span className="ml-2 text-xl font-bold text-white">DevClub IITD</span>
+              <span className="ml-2 text-xl font-bold text-white">BlocSoc IITD</span>
             </Link>
           </div>
           
@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link to="/past-ocs" className="text-gray-300 hover:text-blue-400 transition">Past OCs</Link>
             <div className="h-6 w-px bg-blue-500/30"></div>
             <a 
-              href="https://github.com/devclub-iitd" 
+              href="https://github.com/blocsoc-iitd" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-300 hover:text-blue-400 transition"
@@ -62,7 +62,7 @@ const Navbar = () => {
           <Link to="/team" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Team</Link>
           <Link to="/past-ocs" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Past OCs</Link>
           <a 
-            href="https://github.com/devclub-iitd" 
+            href="https://github.com/blocsoc-iitd" 
             target="_blank" 
             rel="noopener noreferrer"
             className="block px-3 py-2 text-gray-300 hover:text-blue-400"

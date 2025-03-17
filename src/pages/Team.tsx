@@ -35,7 +35,7 @@ const TeamMember = ({
         <p className="text-blue-400 text-base mb-4">{position}</p>
         
         <div className="flex gap-3">
-          {socials.github && (
+          {socials?.github && (
             <a 
               href={socials.github}
               target="_blank"
@@ -45,7 +45,7 @@ const TeamMember = ({
               <Github className="w-5 h-5" />
             </a>
           )}
-          {socials.linkedin && (
+          {socials?.linkedin && (
             <a 
               href={socials.linkedin}
               target="_blank"
@@ -55,7 +55,7 @@ const TeamMember = ({
               <Linkedin className="w-5 h-5" />
             </a>
           )}
-          {socials.email && (
+          {socials?.email && (
             <a 
               href={`mailto:${socials.email}`}
               className="text-gray-400 hover:text-white transition"
@@ -63,7 +63,7 @@ const TeamMember = ({
               <Mail className="w-5 h-5" />
             </a>
           )}
-          {socials.website && (
+          {socials?.website && (
             <a 
               href={socials.website}
               target="_blank"
@@ -91,8 +91,7 @@ export default function Team() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Our Team</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Meet the passionate individuals behind DevClub IITD who work tirelessly 
-            to foster technical excellence in our community.
+            Meet the passionate individuals behind BlocSoc IITD.
           </p>
         </div>
       </section>

@@ -8,15 +8,15 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img 
-                src="/LogoDarkMode.png" 
+                src="https://github.com/blocsoc-iitd.png" 
                 alt="DevClub Logo" 
                 className="h-8 w-auto"
               />
-              <span className="ml-2 text-xl font-bold text-white">DevClub IITD</span>
+              <span className="ml-2 text-xl font-bold text-white">Blosoc IITD</span>
             </div>
             <p className="text-sm">
-              Building a culture of software development and innovation at IIT Delhi since 2017.
-              Join us in our mission to foster technical excellence.
+            Since 2021, BlocSoc has been nurturing a culture of software development and innovation at IIT Delhi.
+            Be part of our journey to promote technical excellence and empower the next generation of tech leaders.
             </p>
           </div>
           
@@ -34,8 +34,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <a href="mailto:devclub@iitd.ac.in" className="hover:text-blue-400 transition">
-                devclub@iitd.ac.in
+                <a href="mailto:blocsociitd.ac.in" className="hover:text-blue-400 transition">
+                blocsociitd.ac.in
                 </a>
               </li>
               <li className="flex items-center">
@@ -48,16 +48,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
             <div className="flex space-x-4">
-            <a 
-                href="https://www.youtube.com/@DevClubIITD" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-blue-400 transition"
-              >
-                <Youtube className="w-6 h-6" />
-              </a>
               <a 
-                href="https://instagram.com/devclub_iitd" 
+                href="https://instagram.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition"
@@ -65,7 +57,7 @@ const Footer = () => {
                 <Instagram className="w-6 h-6" />
               </a>
               <a 
-                href="https://twitter.com/devclub_iitd" 
+                href="https://x.com/0xblocsoc" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition"
@@ -73,7 +65,7 @@ const Footer = () => {
                 <Twitter className="w-6 h-6" />
               </a>
               <a 
-                href="https://in.linkedin.com/company/devclub-iit-delhi" 
+                href="https://www.linkedin.com/company/blockchain-society-iit-delhi/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition"
@@ -81,7 +73,7 @@ const Footer = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a 
-                href="https://github.com/devclub-iitd" 
+                href="https://github.com/blocsoc-iitd" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition"
@@ -96,7 +88,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t borde</svg>r-blue-500/20 text-center text-sm">
-          <p>© {new Date().getFullYear()} DevClub IITD. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Blocsoc IITD. All rights reserved.</p>
           <p className="mt-2 text-gray-400">
             Made with ❤️ by DevClub IITD
           </p>

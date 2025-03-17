@@ -13,42 +13,10 @@ import NotFound from './pages/NotFound';
 import Communities from './pages/Communities';  // Add this import
 import PastOCs from './pages/PastOCs';  // Add this import
 
-const projects = [
-  {
-    title: "IITDConnect",
-    description: "Backend server for the campus social networking platform that connects IIT Delhi students",
-    image: "/projects/connect.png",
-    tech: ["MongoDB", "Express", "Node.js"],
-    github: "https://github.com/devclub-iitd/IITDConnectServer",
-    visit: "https://campus.devclub.in/home"
-  },
-  {
-    title: "Yearbook",
-    description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
-    image: "/projects/yearbook.jpg",
-    tech: ["React", "Django", "PostgreSQL"],
-    github: "https://github.com/devclub-iitd/Yearbook",
-    visit: "https://yearbook.devclub.in/"
-  },
-  {
-    title: "ClassGrid",
-    description: "Automatic timetable manager",
-    image: "/projects/classgrid.png",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/devclub-iitd/ClassGrid",
-    visit: "https://classgrid.devclub.in/"
-  },
-  {
-    title: "Study Portal",
-    description: "Citadel, the previous year papers and texts centre",
-    image: "/projects/citadel.png",
-    tech: ["React", "Express", "MongoDB"],
-    github: "https://github.com/devclub-iitd/StudyPortal",
-    visit: "https://study.devclub.in/books/"
-  }
-];
+
 
 import eventsData from './lists/events.json';
+import projects from './lists/projects.json';
 
 const events = [...eventsData]
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -67,14 +35,14 @@ function App() {
             {/* Events Preview - Moved up */}
             <section className="py-20 px-4">
               <div className="max-w-7xl mx-auto">
-                <h2 className="text-4xl font-bold text-center mb-16">Events @ DevClub</h2>
+                <h2 className="text-4xl font-bold text-center mb-16">Events @ Blocsoc</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  {events.map((event, i) => (
+                  {events.slice(0,3).map((event, i) => (
                     <div key={i} className="group relative overflow-hidden rounded-xl">
                       <img 
                         src={event.image}
                         alt={event.title}
-                        className="w-full h-48 object-cover transition duration-300 group-hover:scale-110"
+                        className="w-full h-64 object-cover transition duration-300 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end">
                         <div className="text-blue-400 mb-2">{event.date}</div>
@@ -111,7 +79,7 @@ function App() {
             {/* Vision Cards */}
             <section className="relative py-20 px-4 before:absolute before:inset-0 before:bg-gradient-to-b before:from-black/90 before:via-blue-950/20 before:to-transparent before:-z-10">
               <div className="max-w-7xl mx-auto relative z-10">
-                <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300">Why DevClub?</h2>
+                <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300">Why Blocsoc?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                   {[
                     { icon: Code, title: "Learn", desc: "Master modern technologies through hands-on projects and workshops" },
@@ -137,7 +105,7 @@ function App() {
               <div className="max-w-7xl mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-16">Featured Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  {projects.map((project, i) => (
+                  {projects.slice(0,4).map((project, i) => (
                     <div key={i} className="group relative overflow-hidden rounded-xl">
                       <img 
                         src={project.image} 
@@ -207,56 +175,61 @@ function App() {
               </div>
             </section>
 
-            {/* Instagram Feed Section */}
+            {/* Twitter Feed Section */}
             <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                  <h2 className="text-4xl font-bold mb-4">Follow Us on Instagram</h2>
+                  <h2 className="text-4xl font-bold mb-4">Follow Us on Twitter</h2>
                   <p className="text-xl text-gray-400">Stay updated with our latest events and projects</p>
                 </div>
                 
                 <div className="instagram-embed rounded-2xl p-8 max-w-3xl mx-auto">
                   <div className="flex items-center gap-4 mb-6">
                     <img
-                      src="https://github.com/devclub-iitd.png"
-                      alt="DevClub IITD"
+                      src="https://github.com/blocsoc-iitd.png"
+                      alt="BlocSoc IITD"
                       className="w-16 h-16 rounded-full border-2 border-blue-500"
                     />
                     <div>
-                      <h3 className="instagram-header text-2xl font-bold mb-1">DevClub IITD</h3>
+                      <h3 className="instagram-header text-2xl font-bold mb-1">BlocSoc IITD</h3>
                       <a 
-                        href="https://www.instagram.com/devclub_iitd/"
+                        href="https://x.com/0xblocsoc"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 transition"
                       >
-                        @devclub_iitd
+                        @0xblocsoc
                       </a>
                     </div>
                   </div>
                   
                   <div className="aspect-video w-full">
-                    <iframe
-                      className="w-full h-full rounded-xl"
-                      src="https://www.instagram.com/devclub_iitd/embed"
-                      frameBorder="0"
-                      scrolling="no"
-                      allowTransparency={true}
-                    ></iframe>
+                  {/* <iframe
+                    className="w-full h-full rounded-xl"
+                    src="https://x.com/0xblocsoc"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowTransparency={true}
+                  ></iframe> */}
+                  <img 
+                        src="/iframes/twitter.png" 
+                        alt="Twitter Feed"
+                        className="w-full object-fit rounded-xl"
+                      />
                   </div>
                   
                   <div className="mt-6 text-center">
                     <a
-                      href="https://www.instagram.com/devclub_iitd/"
+                      href="https://x.com/0xblocsoc"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="shiny-cta inline-block"
                     >
                       <span className="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
-                        Follow us on Instagram
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                      </svg>
+                        Follow us on Twitter
                       </span>
                     </a>
                   </div>
@@ -268,39 +241,42 @@ function App() {
             <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                  <h2 className="text-4xl font-bold mb-4">Latest on YouTube</h2>
-                  <p className="text-xl text-gray-400">Learn and grow with our tech tutorials and event recordings</p>
+                  <h2 className="text-4xl font-bold mb-4">IITD Blockchain review</h2>
+                  <p className="text-xl text-gray-400">Learn and grow with our tech tutorials and blogs</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                   {/* Featured Video Embed */}
                   <div className="aspect-video w-full">
-                    <iframe
+                    {/* <iframe
                       width="100%"
                       height="100%"
-                      src="https://www.youtube.com/embed/B9m-Zky5r5Q?si=BpK2MhiBeJnL79ko"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      src="https://substack.com/@iitblockchainreview"
+                      title="IIT Blockchain Review"
                       referrerPolicy="strict-origin-when-cross-origin"
                       allowFullScreen
-                    ></iframe>
+                    ></iframe> */}
+                    <img 
+                        src="/iframes/substack.png" 
+                        alt="substack Feed"
+                        className="w-full object-fit rounded-xl"
+                      />
                   </div>
                   
                   {/* Channel Info */}
                   <div className="flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
-                    <h3 className="text-2xl font-bold mb-4">DevClub IITD</h3>
+                    <h3 className="text-2xl font-bold mb-4">IITD Blockchain review</h3>
                     <p className="text-gray-400 mb-6">
-                      Subscribe to our channel for tech tutorials, event recordings, and learning resources.
+                      Subscribe to our channel for tech tutorials.blogs and learning resources.
                     </p>
                     <a
-                      href="https://www.youtube.com/@DevClubIITD"
+                      href="https://substack.com/@iitblockchainreview"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-full text-white w-fit"
+                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-800 transition rounded-full text-white w-fit"
                     >
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
-                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-substack" viewBox="0 0 16 16">
+                        <path d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"/>
                       </svg>
                       Subscribe Now
                     </a>
@@ -312,12 +288,12 @@ function App() {
             {/* CTA Section */}
             <section className="py-20 px-4 bg-gradient-to-b via-blue-950/20">
               <div className="max-w-4xl mx-auto text-center backdrop-blur-sm rounded-2xl p-8">
-              <h2 className="text-4xl font-bold mb-6">Ready to Join DevClub?</h2>
+              <h2 className="text-4xl font-bold mb-6">Ready to Join Blocsoc?</h2>
               <p className="text-xl text-gray-400 mb-8">
                 Be part of IIT Delhi's largest technical club and start your development journey today.
               </p>
               <a 
-                href="https://linktr.ee/devclub.iitd"
+                href="https://linktr.ee/blocsoc_iitd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition"

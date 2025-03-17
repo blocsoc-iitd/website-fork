@@ -15,8 +15,7 @@ export default function PastOCs() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Past Overall Coordinators</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Meet the visionary leaders who have shaped DevClub IITD through the years.
-            Click on the image to go to LinkedIn.
+            Meet the visionary leaders who have shaped BlocSoc IITD through the years.
           </p>
         </div>
       </section>

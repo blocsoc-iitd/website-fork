@@ -1,251 +1,200 @@
 [
-    {
-      "name": "Prapanch Nair",
-      "position": "Faculty In-Charge",
-      "image": "/team_photos/prapanchnairfacultyic.jpg",
-      "socials": {
-        "email": "advisor@devclub.in",
-        "linkedin": "https://linkedin.com"
-      }
+  {
+    "name": "Monal Gupta",
+    "position": "President",
+    "image": "/team_photos/monalGupta.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/monalgupta03/",
+      "twitter": "https://twitter.com/monalgupta03",
+      "github": "https://github.com/monalgupta03"
     },
-    {
-      "name": "Ashish Arora",
-      "position": "Overall Coordinator",
-      "image": "/team_photos/Ashish Arora _ OC.JPG",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
+    "quote": "Disrupt the status quo"
+  },
+  {
+    "name": "Manoj Kumar Gorle",
+    "position": "Vice President",
+    "image": "/team_photos/manojSer.jpeg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/manojkgorle",
+      "twitter": "https://twitter.com/manojkgorle",
+      "github": "https://github.com/manojkgorle"
     },
-    {
-      "name": "Shashank Mahawar",
-      "position": "Advisor",
-      "image": "/team_photos/Shashank Mahawar _ Advisor.jpeg",
-      "socials": {
-        "github": "https://github.com/shashmahawar",
-        "linkedin": "https://www.linkedin.com/in/shashmahawar/"
-      }
-    },
-    {
-      "name": "Basil Labib",
-      "position": "Core Team Member",
-      "image": "/team_photos/Basil Labib _ Core Team Member.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Sunaina Das",
-      "position": "Core Team Member",
-      "image": "/team_photos/sunaina.jpg",
-      "socials": {
-
-      }
-    },
-    {
-      "name": "Kavya Chopra",
-      "position": "Core Team Member",
-      "image": "/team_photos/Kavya Chopra _ CTM.jpeg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Arush Bansal",
-      "position": "Core Team Member",
-      "image": "/team_photos/Arush Bansal.jpg",
-      "socials": {
-
-      }
-    },
-    {
-      "name": "Dinu Goyal",
-      "position": "Coordinator",
-      "image": "/team_photos/Dinu Goyal _ Coordinator.webp",
-      "socials": {
-        "github": "https://github.com/Uniquedex100",
-        "linkedin": "https://www.linkedin.com/in/dinu-goyal-365574252"
-      }
-    },
-    {
-      "name": "Dhruv Joshi",
-      "position": "Coordinator",
-      "image": "/team_photos/dhruv joshi.jpg",
-      "socials": {
-
-      }
-    },
-    {
-      "name": "Jahnabi Roy",
-      "position": "Coordinator",
-      "image": "/team_photos/Jahnabi Roy _ Coordinator.jpg",
-      "socials": {
-        "github": "https://github.com/jahnabiroy",
-        "linkedin": "https://in.linkedin.com/in/jahnabi-roy-828529275"
-      }
-    },
-    {
-      "name": "Ritul Kumawat",
-      "position": "Coordinator",
-      "image": "/team_photos/Ritul Kumawat _ Coordinator.png",
-      "socials": {
-        "github": "https://github.com/RitulKumawat/",
-        "linkedin": "https://www.linkedin.com/in/ritulkumawat/"
-      }
-    },
-    {
-      "name": "Shourya",
-      "position": "Coordinator",
-      "image": "/team_photos/Shourya _ Coordinator.PNG",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Akshit Arora",
-      "position": "Executive",
-      "image": "/team_photos/Akshit Arora _ Executive .JPG",
-      "socials": {
-        "github": "https://github.com/AkshitEP",
-        "linkedin": "https://in.linkedin.com/in/akshit-arora-748941285"
-      }
-    },
-    {
-      "name": "Aman Degala",
-      "position": "Executive",
-      "image": "/team_photos/Aman Degala _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Ansh Singh",
-      "position": "Executive",
-      "image": "/team_photos/Ansh Singh _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Aryan Choudhary",
-      "position": "Executive",
-      "image": "/team_photos/Aryan Choudhary _ Executive_.jpg",
-      "socials": {
-        "github": "https://github.com/Z3R0C1PH3R",
-        "linkedin": "https://www.linkedin.com/in/~aryan-choudhary/"
-      }
-    },
-    {
-      "name": "Eshita Zjigyasu",
-      "position": "Executive",
-      "image": "/team_photos/Eshita Zjigyasu _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Gazal Sharma",
-      "position": "Executive",
-      "image": "/team_photos/Gazal Sharma _ executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Harsh Parihar",
-      "position": "Executive",
-      "image": "/team_photos/Harsh Parihar.jpg",
-      "socials": {
-        "github" : "https://github.com/techrival007",
-        "linkedin": "https://www.linkedin.com/in/harsh-parihar-7777b6219"
-      }
-    },
-    {
-      "name": "Keshav Bansal",
-      "position": "Executive",
-      "image": "/team_photos/Keshav Bansal । Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Manogya Singh",
-      "position": "Executive",
-      "image": "/team_photos/Manogya Singh _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com/manogyasingh",
-        "linkedin": "https://www.linkedin.com/in/manogya-singh-suryansh-196305217/"
-      }
-    },
-    {
-      "name": "Pragun Pudukoli",
-      "position": "Executive",
-      "image": "/team_photos/Pragun Pudukoli _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Pulkit Agrawal",
-      "position": "Executive",
-      "image": "/team_photos/Pulkit Agrawal _ Executive.jpeg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Ranjan Kumar",
-      "position": "Executive",
-      "image": "/team_photos/Ranjan Kumar _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com/RanjanKumar93",
-        "linkedin": "https://www.linkedin.com/in/ranjan-kumar-37a556296/"
-      }
-    },
-    {
-      "name": "Rishabh Joshi",
-      "position": "Executive",
-      "image": "/team_photos/Rishabh Joshi _ Executive_.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Shoan Raj",
-      "position": "Executive",
-      "image": "/team_photos/Shoan Raj - Executive.jpg",
-      "socials": {
-        "github": "https://github.com/AddledAnorak",
-        "linkedin": "https://www.linkedin.com/in/shoan-raj/"
-      }
-    },
-    {
-      "name": "Subham Jain",
-      "position": "Executive",
-      "image": "/team_photos/Subham Jain | Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
-    },
-    {
-      "name": "Vansh Ramani",
-      "position": "Executive",
-      "image": "/team_photos/Vansh Ramani _ Executive.jpg",
-      "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
-      }
+    "quote": "Let verification take the control."
+  },
+  {
+    "name": "Muskan Kumari",
+    "position": "Researcher",
+    "image": "/team_photos/dummy.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/",
+      "twitter": "https://twitter.com/",
+      "github": "https://github.com/"
     }
+  },
+  {
+    "name": "Siddhi Vivek Sawarkar",
+    "position": "Partnership Manager",
+    "image": "/team_photos/siddhiSawarkar.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/siddhi-sawarkar-4a7585254",
+      "twitter": "https://twitter.com/SiddhiSawarkar"
+    },
+    "quote": "Be fearless and explore"
+  },
+  {
+    "name": "Saksham Kumar",
+    "position": "Partnership Manager",
+    "image": "/team_photos/dummy.jpg"
+  },
+  {
+    "name": "Raman",
+    "position": "Researcher",
+    "image": "/team_photos/dummy.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/",
+      "twitter": "https://twitter.com/",
+      "github": "https://github.com/RamanS1819"
+    }
+  },
+  {
+    "name": "Gautam",
+    "position": "Developer",
+    "image": "/team_photos/gautamKumar.jpg",
+    "socials": {
+      "twitter": "https://x.com/0xgautxm",
+      "github": "https://github.com/whoisgautxm"
+    },
+    "quote": "All rollups are \"ZK\" Rollups."
+  },
+  {
+    "name": "Aryan Dharwa",
+    "position": "Developer",
+    "image": "/team_photos/aryanDharwa.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aryandharwa/",
+      "twitter": "https://x.com/aryandharwa",
+      "github": "https://github.com/aryandharwa"
+    },
+    "quote": "Is Web3 Gaming the future?"
+  },
+  {
+    "name": "Shivansh Gupta",
+    "position": "Developer",
+    "image": "/team_photos/shivanshGupta.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/shivansh-gupta-iitd",
+      "twitter": "https://x.com/shivansheth",
+      "github": "https://github.com/shivannsh"
+    },
+    "quote": "\"I know nothing, but I prove everything\" - ZK"
+  },
+  {
+    "name": "Arnav Panjla",
+    "position": "Developer",
+    "image": "/team_photos/foto6.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/arnav-panjla-a71309299/",
+      "twitter": "https://x.com/ArnavPanjla",
+      "github": "https://github.com/arnav-panjla",
+      "website": "https://arnav-panjla.github.io/"
+    },
+    "quote": "Strength lies not in secrecy but in the precision of what we reveal—ZK proves that, the less you show, the more you say."
+  },
+  {
+    "name": "Akshat Shandilya",
+    "position": "Researcher",
+    "image": "/team_photos/akshatShandilya.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/akshat-shandilya-490a762b0/",
+      "twitter": "https://x.com/A_Shandilya2005",
+      "github": "https://github.com/Akshat-Shandilya"
+    },
+    "quote": "I know exactly what to do. But in a much more real sense, I have no idea what to do."
+  },
+  {
+    "name": "Reeshabh Kotecha",
+    "position": "Researcher",
+    "image": "/team_photos/reeshabKotecha.jpeg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
+      "github": "https://github.com/reeshabh-k"
+    },
+    "quote": "💰💰💰💰💰💰"
+  },
+  {
+    "name": "Nikhilesh",
+    "position": "Developer",
+    "image": "/team_photos/nikhilesh.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
+      "github": "https://github.com/reeshabh-k"
+    },
+    "quote": "💰💰💰💰💰💰"
+  },
+  {
+    "name": "Prasoon Raj",
+    "position": "Marketing Manager",
+    "image": "/team_photos/prasoon.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
+      "github": "https://github.com/reeshabh-k"
+    },
+    "quote": "💰💰💰💰💰💰"
+  },
+  {
+    "name": "Rupaditya",
+    "position": "Community Manager",
+    "image": "/team_photos/rupadityaAdireddy.jpeg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/rupaditya-adireddy-9576b6282/",
+      "twitter": "https://x.com/rupaditya_",
+      "github": "https://github.com/rupaditya"
+    },
+    "quote": "explore and grow incessantly :)"
+  },
+  {
+    "name": "Aditya Bansal",
+    "position": "Developer",
+    "image": "/team_photos/adityaBansal.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aditya-bansal-b38b67281/",
+      "github": "https://github.com/adibansal29"
+    }
+  },
+  {
+    "name": "Ramakrishna Gena",
+    "position": "Developer",
+    "image": "/team_photos/ramkrishnaGena.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ramkrishna-gena-b29424307"
+    },
+    "quote": "Driving innovation in decentralised technology to build trust and transparency, one block at a time"
+  },
+  {
+    "name": "Tejashvi Kumawat",
+    "position": "Designer",
+    "image": "/team_photos/tejashviKumawat.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/tejashvi-kumawat/",
+      "twitter": "https://x.com/tejashvi_iitd",
+      "github": "https://github.com/tejashvi-kumawat"
+    },
+    "quote": "Dedication Drives Achievement."
+  },
+  {
+    "name": "Kushagrah Jain",
+    "position": "Events Manager",
+    "image": "/team_photos/kushagrahJain.jpeg",
+    "socials": {
+      "linkedin": "www.linkedin.com/in/kushagrah-jain-b83187286"
+    }
+  },
+  {
+    "name": "Aryan Giri",
+    "position": "Events Manager",
+    "image": "/team_photos/aryanGiri.jpeg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aryan-giri-42a83127b"
+    }
+  }
 ]

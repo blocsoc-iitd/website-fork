@@ -4,36 +4,7 @@ import Footer from '../components/Footer';
 import Background from '../components/Background';
 import { Youtube, Users, BookOpen, Brain, ExternalLink } from 'lucide-react';
 
-const communities = [
-    {
-        title: "Spark Bootcamp",
-        description: "The complete tutorial series covering development concepts from fullstack web to cybersecurity to ML and AI. Open for all IITD students to attend in person and available on YouTube for everyone else.",
-        image: "/events/spark.png",
-        category: "Learning Series",
-        tags: ["Web Dev", "Cybersec", "ML/AI", "Tutorial"],
-        link: "https://www.youtube.com/@DevClubIITD",
-        active: true,
-        featured: true
-    },
-    {
-        title: "Women in Tech Series",
-        description: "In collaboration with AWS, this initiative brings women in tech to deliver technical lectures and tutorials on relevant topics, fostering diversity and knowledge sharing in the tech community.",
-        image: "/events/womenintech.png",
-        category: "Technical Series",
-        tags: ["AWS", "Women in Tech", "Industry"],
-        active: true,
-        featured: true
-    },
-    {
-        title: "Agentic AI Community",
-        description: "An upcoming community focused on teaching and building with AI agents. Join us to explore the cutting-edge world of autonomous AI systems and their applications.",
-        image: "/communities/ai.jpg", // Placeholder
-        category: "AI Community",
-        tags: ["AI", "Agents", "LLMs", "Upcoming"],
-        active: false,
-        featured: true
-    }
-];
+import communities from '../lists/communities.json';
 
 export default function Communities() {
   return (
@@ -60,37 +31,36 @@ export default function Communities() {
                 <Youtube className="w-4 h-4 mr-2" />
                 Featured Series
               </div>
-              <h2 className="text-4xl font-bold">Spark Bootcamp</h2>
+              <h2 className="text-4xl font-bold">Research Groups</h2>
               <p className="text-gray-400 text-lg">
-                A comprehensive learning series covering everything from web development to AI. 
-                Join us in person or follow along on YouTube.
+              This serves as an initial plunge into blockchain, equipping you with unique concepts for hackathons boasting impressive prize pools. A quintessential researcher role.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["Web Dev", "Cybersec", "ML/AI", "Tutorial"].map((tag, i) => (
+                {["Cryptography", "Concensus", "Game Theory"].map((tag, i) => (
                   <span key={i} className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-300 text-sm">
                     {tag}
                   </span>
                 ))}
               </div>
               <a 
-                href="https://www.youtube.com/@DevClubIITD"
+                href="https://chat.whatsapp.com/H7juir9JbiY2uwtaPvtAde"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition"
+                className="inline-flex items-center px-6 py-3 rounded-full bg-green-500 text-white hover:bg-green-600 transition"
               >
-                <Youtube className="w-5 h-5 mr-2" />
-                Watch on YouTube
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                </svg>
+                <br/>
+                  Join the whatsapp group
               </a>
             </div>
             <div className="aspect-video rounded-xl overflow-hidden bg-blue-950/20">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/videoseries?list=PLxd0TIVvJUL8G4Ytx2qybu-R3ZX_V4XBh"
-                title="DevClub IITD YouTube Channel"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <img 
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Reseacrh Groups"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="flex justify-center mb-8">
           <img 
-            src="/LogoDarkMode.png" 
-            alt="DevClub Logo" 
+            src="https://github.com/blocsoc-iitd.png" 
+            alt="Blocsoc Logo" 
             className="h-32 w-auto animate-float"
           />
         </div>
@@ -23,8 +23,8 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-          DevClub IITD is a community of developers, innovators, and problem solvers fostering 
-          technical excellence and creative engineering at IIT Delhi since 2017.
+          Blocsoc IITD is a community of developers, innovators, and problem solvers fostering 
+          technical excellence and creative engineering at IIT Delhi since 2021.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
