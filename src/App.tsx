@@ -23,7 +23,7 @@ const events = [...eventsData]
 
 function App() {
   return (
-    <Router basename='/website-fork/'>
+    <Router basename='/'>
       <Routes>
         <Route path="/" element={
           <div className="min-h-screen bg-black text-white">
