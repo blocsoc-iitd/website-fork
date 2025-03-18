@@ -1,4 +1,5 @@
 import { Mail, MapPin, Twitter, Linkedin, Github, Instagram, Youtube } from 'lucide-react';
+import { TwitterDMButton } from 'react-twitter-embed';
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold text-white">Blosoc IITD</span>
             </div>
             <p className="text-sm">
-            Since 2021, BlocSoc has been leading the research and development in blockchain tech across India.
+            Since 2022, BlocSoc has been leading the research and development in blockchain tech across India.
             </p>
           </div>
           
@@ -29,7 +30,7 @@ const Footer = () => {
             </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">For Enquiry:</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
@@ -40,6 +41,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>IIT Delhi, Hauz Khas, New Delhi-110016</span>
+              </li>
+              <li className="flex items-center">
+                {/* <TwitterDMButton id={903041488959000577}/> */}
+                Dm Us on Twitter @0xblocsoc
               </li>
             </ul>
           </div>

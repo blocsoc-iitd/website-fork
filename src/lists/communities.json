@@ -1,29 +1,29 @@
 [
     {
-      "title": "Reseach Groups",
-      "description": "This serves as an initial plunge into blockchain, equipping you with unique concepts for hackathons boasting impressive prize pools. A quintessential researcher role.",
-      "image": "./communities/dummy.png",
+      "title": "Research Groups",
+      "description": "A quintessential researcher role.",
+      "image": "./communities/rg.avif",
       "category": "Learning Series",
-      "tags": ["Cryptography", "Concensus", "Game Theory"],
+      "tags": ["Cryptography", "Consensus", "Modular", "DeFi"],
       "link": "https://chat.whatsapp.com/H7juir9JbiY2uwtaPvtAde",
       "active": true,
       "featured": true
     },
     {
       "title": "BC106",
-      "description": "The Blockchain cohort to onboard university freshers & sophomores to Web3",
-      "image": "./communities/dummy.png",
+      "description": "Onboarding university freshers & sophomores to Web3",
+      "image": "./communities/bc106.jpg",
       "category": "Technical Series",
-      "tags": ["Web3.0", "consensus", "Blockchain"],
+      "tags": ["Web3.0", "Cohort", "Blockchain"],
       "active": true,
       "featured": true
     },
     {
       "title": "ZK bootcamp",
-      "description": "Zero knowledge bootcamp delving from cryptographic primitives to Snarks and Starks.",
-      "image": "./communities/dummy.png",
+      "description": "Zero knowledge bootcamp delving from cryptographic primitives of Snarks and Starks.",
+      "image": "./communities/zkb.jpg",
       "category": "AI Community",
-      "tags": ["ZK proof", "Blockchain", "Cryptography", "Snarks", "Starks"],
+      "tags": ["ZK", "Blockchain", "Cryptography", "SNARKS", "STARKS"],
       "active": true,
       "featured": true
     }

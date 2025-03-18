@@ -38,6 +38,7 @@ const Navbar = () => {
             <Link to="/projects" className="text-gray-300 hover:text-blue-400 transition">Projects</Link>
             <Link to="/team" className="text-gray-300 hover:text-blue-400 transition">Team</Link>
             <Link to="/past-ocs" className="text-gray-300 hover:text-blue-400 transition">Past OCs</Link>
+            <Link to="/startups" className="text-gray-300 hover:text-blue-400 transition">Startups</Link>
             <div className="h-6 w-px bg-blue-500/30"></div>
             <a 
               href="https://github.com/blocsoc-iitd" 
@@ -61,6 +62,7 @@ const Navbar = () => {
           <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Projects</Link>
           <Link to="/team" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Team</Link>
           <Link to="/past-ocs" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Past OCs</Link>
+          <Link to="/startups" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Startups</Link>
           <a 
             href="https://github.com/blocsoc-iitd" 
             target="_blank" 

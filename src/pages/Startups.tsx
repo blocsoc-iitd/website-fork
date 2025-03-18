@@ -14,7 +14,9 @@ export default function NotFound() {
           className="text-9xl font-extrabold text-transparent bg-clip-text 
                      bg-gradient-to-r from-white to-white/20 tracking-widest mb-8"
         >
-          404
+          4
+        0
+          4
         </h1>
         <p className="text-gray-400 text-xl">You're lost dear traveler. Don't worry it happens to the best of us.</p>
       </section>

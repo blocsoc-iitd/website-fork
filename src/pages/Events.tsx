@@ -7,7 +7,7 @@ import { Calendar, Users, MapPin, ExternalLink } from 'lucide-react';
 import eventsData from '../lists/events.json';
 const allEvents = eventsData;
 
-const categories = ["All", "Hackathon", "Workshop", "Program", "Talk"];
+const categories = ["All", "Hackathon", "Conference", "Bootcamp", "Workshop", "Internal"];
 
 export default function Events() {
   const [selectedCategory, setSelectedCategory] = useState("All");

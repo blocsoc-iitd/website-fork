@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-          We <span className="text-blue-400">Think.</span> Build. <span className="text-blue-400">Solve.</span>
+          We <span className="text-blue-400">Research.</span> Innovate. <span className="text-blue-400">Build.</span>
         </h1>
         
         <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">

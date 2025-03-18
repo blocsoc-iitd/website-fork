@@ -2,10 +2,10 @@ import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Background from '../components/Background';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 import allProjects from "../lists/projects.json";
 
-const categories = ["All", "Web", "Mobile", "ML/AI", "Tools"];
+const categories = ["All", "OG", "ZK", "DeFi", "Modular", "Compilers", "Ethereum", "Solana", "Avalanche", "STARKS", "SNARKS", "Perpetuals", "OpCode", "Groth16", "AIR", "FRI","ECC", "DA", "Celestia", "AI", "Social", "Galadriel"];
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -29,8 +29,7 @@ export default function Projects() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Our Projects</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Explore our collection of innovative solutions built by DevClub members
-            to solve real problems faced by the IITD community.
+            Explore the projects built by cracked Blocsoc members. Some of them are the first ever implementations of the tech/paper/protocol, OGs for a reson.
           </p>
         </div>
       </section>

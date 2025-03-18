@@ -2,70 +2,98 @@
   {
     "title": "BrainFuck VM",
     "description": "Rust implementation of BrainSTARK zkVM",
-    "image": "./projects/dummy.png",
-    "tech": ["ZK", "STARKS", "AIR", "FRI"],
+    "image": "./projects/zkvm.jpg",
+    "tech": ["ZK", "STARKS", "AIR", "FRI", "OG"],
     "github": "https://github.com/manojkgorle/brainfuckvm"
   },
   {
     "title": "Kasavinal DA",
     "description": "Data Availabilty Sampling Implementation",
-    "image": "./projects/dummy.png",
-    "tech": ["Avalanche", "Data Availability", "Modular"],
+    "image": "./projects/kasavinal.jpeg",
+    "tech": ["Avalanche", "DA", "Modular", "OG"],
     "github": "https://github.com/manojkgorle/hypersdk/pull/2"
   },
   {
     "title": "Escobar",
     "description": "SVM Subnet",
-    "image": "./projects/dummy.png",
-    "tech": ["Avalanche", "Solana", "Modular"],
+    "image": "./projects/escobar.jpg",
+    "tech": ["Avalanche", "Solana", "Modular", "OG"],
     "github": "https://github.com/manojkgorle/escobar"
+  },
+  {
+    "title": "Zudoku",
+    "description": "ZK proving a n-x-n sudoku system.",
+    "image": "./projects/zudoku.jpg",
+    "tech": ["ZK", "ECC"],
+    "github": "https://github.com/Arnav-panjla/Zudoku"
+  },
+  {
+    "title": "Groth 16 Rust",
+    "description": "Rust implementation of Groth 16",
+    "image": "./projects/groth16.jpg",
+    "tech": ["ZK", "Groth16", "SNARKS"],
+    "github": "https://github.com/nikillxh/zk-groth16-impl"
+  },
+  {
+    "title": "Range Proofs",
+    "description": "Range Proofs using Bulletproofs",
+    "image": "./projects/rangeproofs.jpg",
+    "tech": ["ZK", "Bullet Proofs", "SNARKS"],
+    "github": "https://github.com/nikillxh/zk-range-proof"
   },
   {
     "title": "Stark 101 Rust",
     "description": "Rust implementation of STARK 101",
-    "image": "./projects/dummy.png",
+    "image": "./projects/stark101.jpg",
     "tech": ["ZK", "STARKS", "AIR", "FRI"],
     "github": "https://github.com/blocsoc-iitd/stark101-rs"
   },
   {
+    "title": "Chainverse",
+    "description": "A Decentralised AI powered Social Media",
+    "image": "./projects/cverse.webp",
+    "tech": ["AI", "Galadriel", "Social"],
+    "github": "https://github.com/Arnav-panjla/ChainVerse_314"
+  },
+  {
     "title": "SNACS x HyperSDK",
     "description": "Snark accounts on Hyper SDK",
-    "image": "./projects/dummy.png",
-    "tech": ["SNARKS", "Celestia", "Avalanche"],
+    "image": "./projects/snacs.jpg",
+    "tech": ["SNARKS", "Celestia", "Avalanche", "OG"],
     "github": "https://github.com/manojkgorle/hypersdk/pull/1"
   },
   {
     "title": "ZComp",
     "description": "Zero Knowledge Compiler based on CIRC IR.",
-    "image": "./projects/dummy.png",
-    "tech": ["ZK", "Compilers", "MIR"],
+    "image": "./projects/zcomp.jpeg",
+    "tech": ["ZK", "Compilers", "MIR", "OG"],
     "github": "https://github.com/blocsoc-iitd/proofPositive"
   },
   {
     "title": "Quark Layer",
     "description": "Proof verification and aggregation layer.",
-    "image": "./projects/dummy.png",
-    "tech": ["ZK", "Modular", "MongoDB"],
+    "image": "./projects/quarklayer.avif",
+    "tech": ["ZK", "Modular", "OG"],
     "github": "https://github.com/sausaging"
   },
   {
     "title": "Praxis Finance:",
     "description": "Onchain Perpetuals Tokens on top of AAVE Pools",
-    "image": "./projects/dummy.png",
+    "image": "./projects/praxis.jpg",
     "tech": ["DeFi", "Perpetuals", "Ethereum"],
     "github": "https://github.com/proxima424/praxisFi-new"
   },
   {
     "title": "MerkleTree-SSTORE2:",
     "description": "Trying to Optimize MerkleTree node insertion",
-    "image": "./projects/dummy.png",
-    "tech": ["Ethereum", "OpCode"],
+    "image": "./projects/sstore2.jpg",
+    "tech": ["Ethereum", "OpCode", "OG"],
     "github": "https://github.com/proxima424/MerkleTree-SSTORE2"
   },
   {
     "title": "PoolMaxi-contracts",
     "description": "Lottery Game with No Loss Criteria - A Financially Significant Opportunity.",
-    "image": "./projects/dummy.png",
+    "image": "./projects/poolmaxi.webp",
     "tech": ["Ethereum", "DeFi"],
     "github": "https://github.com/proxima424/PoolMaxi-contracts"
   }

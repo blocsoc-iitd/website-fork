@@ -1,13 +1,62 @@
 [
 {
-    "title": "BC106",
-    "date": "September, 2025",
+    "title": "BC106 Cohort 3",
+    "date": "August, 2025",
     "description": "The Blockchain cohort to onboard university freshers & sophomores to Web3.",
-    "image": "./events/bc106.png",
+    "image": "./events/bc106_3.png",
     "location": "IIT Delhi",
-    "participants": "150+",
-    "registrationLink": "https://github.com/blocsoc-iitd",
-    "category": "Workshop"
+    "participants": "350+",
+    "registrationLink": "",
+    "category": "Cohort"
+},
+{
+    "title": "Jam Tour Delhi",
+    "date": "12th Feb, 2025",
+    "description": "Delhi leg of the Jam Tour by Polkadot. Ser, Gavin Wood explains his recent innovation, The Joint Accumulate Machine.",
+    "image": "./events/jam_tour.jpg",
+    "location": "IIT Delhi",
+    "participants": "200+",
+    "category": "Conference"
+},
+{
+    "title": "Shipathon",
+    "date": "2 Feb 2025",
+    "description": "2 Day long code along to build a Proof of Work chain from Scratch.",
+    "image": "./events/shipathon.jpg",
+    "location": "IIT Delhi",
+    "participants": "25+",
+    "registrationLink": "",
+    "category": "Hackathon"
+},
+{
+    "title": "ETH India 24",
+    "date": "December 24",
+    "description": "A 3 day long Ethereum hackathon organised by Devfolio",
+    "image": "./events/eth_india_24.jpg",
+    "location": "Banagalore",
+    "participants": "8",
+    "registrationLink": "",
+    "category": "Hackathon"
+},
+{
+    "title": "ZK Bootcamp Season 2",
+    "date": "October - December 2025",
+    "description": "8 week long bootcamp to delve into Zero Knowledge Proofs.",
+    "image": "./events/zkbootcamp2.jpg",
+    "location": "IIT Delhi",
+    "participants": "10",
+    "registrationLink": "",
+    "category": "Internal"
+},
+{
+    "title": "ETH Singapore 24",
+    "date": "September 24",
+    "description": "A 3 day long Ethereum hackathon",
+    "image": "./events/eth_singapore_24.jpg",
+    "location": "Singapore",
+    "participants": "8",
+    "registrationLink": "",
+    "category": "Hackathon"
 },
 {
     "title": "ZK bootcamp",
@@ -17,7 +66,7 @@
     "location": "Virtual & IIT Delhi",
     "participants": "150+",
     "registrationLink": "https://github.com/blocsoc-iitd",
-    "category": "Program"
+    "category": "Bootcamp"
 },
 {
     "title": "Macaw",
@@ -30,23 +79,13 @@
     "category": "Workshop"
 },
 {
-    "title": "Shipathon",
-    "date": "2 feb 2025",
-    "description": " hackathon to build Pow chain from scrath",
-    "image": "./events/dummy.png",
-    "location": "IIT Delhi",
-    "participants": "25+",
-    "registrationLink": "https://github.com/blocsoc-iitd",
-    "category": "Hackathon"
-},
-{
-    "title": "Dummy event",
-    "date": "2024",
+    "title": "Superteam Solana Day",
+    "date": "2022",
     "description": "because why not !!",
-    "image": "./events/dummy.png",
-    "location": "Earth",
-    "participants": "pi",
-    "registrationLink": "https://github.com/blocsoc-iitd",
-    "category": "Hackathon"
+    "image": "./events/solana.jpeg",
+    "location": "IIT Delhi",
+    "participants": "250+",
+    "registrationLink": "",
+    "category": "Workshop"
 }
 ]

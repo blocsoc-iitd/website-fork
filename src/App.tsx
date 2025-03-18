@@ -11,8 +11,8 @@ import Team from './pages/Team';
 import NotFound from './pages/NotFound';
 import Communities from './pages/Communities';  // Add this import
 import PastOCs from './pages/PastOCs';  // Add this import
+import Startups from './pages/Startups';  // Add this import
 import { TwitterTweetEmbed} from 'react-twitter-embed';
-
 
 import eventsData from './lists/events.json';
 import projects from './lists/projects.json';
@@ -282,6 +282,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/communities" element={<Communities />} />
         <Route path="/past-ocs" element={<PastOCs />} />
+        <Route path='/startups' element={<Startups />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

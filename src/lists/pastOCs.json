@@ -4,16 +4,16 @@
         "role": "Overall Coordinator",
         "year": "2022",
         "batch": "(2020-2024)",
-        "linkedin": "https://www.linkedin.com/in/aagrxyz/",
-        "image": "./pastocs/dummy.jpg"
+        "linkedin": "https://www.linkedin.com/in/sania-goyal/",
+        "image": "./pastocs/sania.jpg"
     },
     {
         "name": "Anup Kulkarni",
         "role": "Overall Coordinator",
         "year": "2023",
         "batch": "(2020-2024)",
-        "linkedin": "https://www.linkedin.com/in/aagrxyz/",
-        "image": "./pastocs/dummy.jpg"
+        "linkedin": "http://linkedin.com/in/anup-kulkarni-61925a228/",
+        "image": "./pastocs/anup.jpeg"
     },
     {
         "name": "Monal Gupta",
@@ -22,5 +22,5 @@
         "batch": "(2021-2025)",
         "linkedin": "https://www.linkedin.com/in/monalgupta03/",
         "image": "./pastocs/monalGupta.jpg"
-      }
+    }
 ]
