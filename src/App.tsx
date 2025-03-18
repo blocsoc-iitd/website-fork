@@ -12,7 +12,7 @@ import NotFound from './pages/NotFound';
 import Communities from './pages/Communities';  // Add this import
 import PastOCs from './pages/PastOCs';  // Add this import
 import Startups from './pages/Startups';  // Add this import
-import { TwitterTweetEmbed} from 'react-twitter-embed';
+// import { TwitterTweetEmbed} from 'react-twitter-embed';
 
 import eventsData from './lists/events.json';
 import projects from './lists/projects.json';
@@ -193,7 +193,7 @@ function App() {
                   
                   <div className="flex justify-center w-full">
                     {/* @todo fix this */}
-                       <TwitterTweetEmbed tweetId={'1889729121212637564'}/>
+                       {/* <TwitterTweetEmbed tweetId={'1889729121212637564'}/> */}
                   </div>
                   
                   <div className="mt-6 text-center">
