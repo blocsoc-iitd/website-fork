@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://blocsoc-iitd.github.io/website-fork/",
+  "homepage": "https://blocsoc.in",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist ",
