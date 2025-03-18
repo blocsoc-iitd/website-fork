@@ -5,6 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/website-fork/assets/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blocsoc IIT Delhi</title>
+    <script>
+      window.require = function() {
+        console.error("CommonJS require is not supported in browser environments");
+        return {};
+      };
+    </script>
     <script type="module" crossorigin src="/assets/index-BIWJMksB.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-ChAr2d_-.css">
   </head>
