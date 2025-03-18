@@ -1,4 +1,15 @@
-[
+[ 
+  {
+    "name": "Subodh Sharma",
+    "position": "Faculty incharge",
+    "image": "https://subodhvsharma.github.io/authors/admin/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_13618_270x270_fill_q75_lanczos_center.jpg",
+    "socials": {
+      "linkedin": "https://in.linkedin.com/in/subodh-sharma-b05924b",
+      "twitter": "https://x.com/subodhsharma",
+      "github": "https://github.com/subodhvsharma"
+    },
+    "quote": "Disrupt the status quo"
+  },
   {
     "name": "Monal Gupta",
     "position": "President",
@@ -91,7 +102,7 @@
   {
     "name": "Arnav Panjla",
     "position": "Developer",
-    "image": "./team_photos/foto6.png",
+    "image": "./team_photos/arnavpanjla.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/arnav-panjla-a71309299/",
       "twitter": "https://x.com/ArnavPanjla",

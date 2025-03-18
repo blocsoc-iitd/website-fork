@@ -215,7 +215,7 @@ function App() {
               </div>
             </section>
 
-            {/* YouTube Channel Section */}
+            {/* substack Channel Section */}
             <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
@@ -236,7 +236,7 @@ function App() {
 
                   {/* Channel Info */}
                   <div className="flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
-                    <h3 className="text-2xl font-bold mb-4">IITD Blockchain review</h3>
+                    <h3 className="text-2xl font-bold mb-4">IIT Blockchain review</h3>
                     <p className="text-gray-400 mb-6">
                       Read our latest articles on ZKVMs, Cryptography, Consensus, DeFi and more.
                     </p>
