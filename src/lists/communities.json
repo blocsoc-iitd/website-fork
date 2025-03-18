@@ -2,7 +2,7 @@
     {
       "title": "Reseach Groups",
       "description": "This serves as an initial plunge into blockchain, equipping you with unique concepts for hackathons boasting impressive prize pools. A quintessential researcher role.",
-      "image": "/communities/dummy.png",
+      "image": "./communities/dummy.png",
       "category": "Learning Series",
       "tags": ["Cryptography", "Concensus", "Game Theory"],
       "link": "https://chat.whatsapp.com/H7juir9JbiY2uwtaPvtAde",
@@ -12,7 +12,7 @@
     {
       "title": "BC106",
       "description": "The Blockchain cohort to onboard university freshers & sophomores to Web3",
-      "image": "/communities/dummy.png",
+      "image": "./communities/dummy.png",
       "category": "Technical Series",
       "tags": ["Web3.0", "consensus", "Blockchain"],
       "active": true,
@@ -21,7 +21,7 @@
     {
       "title": "ZK bootcamp",
       "description": "Zero knowledge bootcamp delving from cryptographic primitives to Snarks and Starks.",
-      "image": "/communities/dummy.png",
+      "image": "./communities/dummy.png",
       "category": "AI Community",
       "tags": ["ZK proof", "Blockchain", "Cryptography", "Snarks", "Starks"],
       "active": true,

@@ -2,7 +2,7 @@
   {
     "title": "BrainFuck VM",
     "description": "rust implementation of BrainSTARK zkVM",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["React", "Node.js", "MongoDB"],
     "github": "https://github.com/manojkgorle/brainfuckvm",
     "visit": "https://mercury.devclub.in"
@@ -10,7 +10,7 @@
   {
     "title": "Quark Layer",
     "description": "Proof verification and aggregation layer.",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["React", "Node.js", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://mercury.devclub.in"
@@ -18,7 +18,7 @@
   {
     "title": "ZComp",
     "description": "Zero Knowledge Compiler based on CIRC IR.",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["React", "Express", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://sports.iitd.ac.in"
@@ -26,7 +26,7 @@
   {
     "title": "SNACS x HyperSDK",
     "description": "Snark accounts on Hyper SDK",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["OAuth2", "Express", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://oauth.devclub.in"
@@ -34,7 +34,7 @@
   {
     "title": "Praxis Finance:",
     "description": "Onchain Perpetuals Tokens on top of AAVE Pools",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["OAuth2", "Express", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://oauth.devclub.in"
@@ -42,7 +42,7 @@
   {
     "title": "MerkleTree-SSTORE2:",
     "description": "Trying to Optimize MerkleTree node insertion",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["OAuth2", "Express", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://oauth.devclub.in"
@@ -50,7 +50,7 @@
   {
     "title": "PoolMaxi-contracts",
     "description": "Lottery Game with No Loss Criteria - A Financially Significant Opportunity.",
-    "image": "/projects/dummy.png",
+    "image": "./projects/dummy.png",
     "tech": ["OAuth2", "Express", "MongoDB"],
     "github": "https://github.com/blocsoc-iitd",
     "visit": "https://oauth.devclub.in"

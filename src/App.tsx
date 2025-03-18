@@ -204,18 +204,18 @@ function App() {
                   </div>
                   
                   <div className="aspect-video w-full">
-                  {/* <iframe
+                  <iframe
                     className="w-full h-full rounded-xl"
                     src="https://x.com/0xblocsoc"
                     frameBorder="0"
                     scrolling="no"
                     allowTransparency={true}
-                  ></iframe> */}
-                  <img 
+                  ></iframe>
+                  {/* <img 
                         src="/iframes/twitter.png" 
                         alt="Twitter Feed"
                         className="w-full object-fit rounded-xl"
-                      />
+                      /> */}
                   </div>
                   
                   <div className="mt-6 text-center">

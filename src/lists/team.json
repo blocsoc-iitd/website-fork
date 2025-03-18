@@ -2,7 +2,7 @@
   {
     "name": "Monal Gupta",
     "position": "President",
-    "image": "/team_photos/monalGupta.jpg",
+    "image": "./team_photos/monalGupta.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/monalgupta03/",
       "twitter": "https://twitter.com/monalgupta03",
@@ -13,7 +13,7 @@
   {
     "name": "Manoj Kumar Gorle",
     "position": "Vice President",
-    "image": "/team_photos/manojSer.jpeg",
+    "image": "./team_photos/manojSer.jpeg",
     "socials": {
       "linkedin": "https://linkedin.com/in/manojkgorle",
       "twitter": "https://twitter.com/manojkgorle",
@@ -24,7 +24,7 @@
   {
     "name": "Muskan Kumari",
     "position": "Researcher",
-    "image": "/team_photos/dummy.jpg",
+    "image": "./team_photos/dummy.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/",
       "twitter": "https://twitter.com/",
@@ -34,7 +34,7 @@
   {
     "name": "Siddhi Vivek Sawarkar",
     "position": "Partnership Manager",
-    "image": "/team_photos/siddhiSawarkar.jpg",
+    "image": "./team_photos/siddhiSawarkar.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/siddhi-sawarkar-4a7585254",
       "twitter": "https://twitter.com/SiddhiSawarkar"
@@ -44,12 +44,12 @@
   {
     "name": "Saksham Kumar",
     "position": "Partnership Manager",
-    "image": "/team_photos/dummy.jpg"
+    "image": "./team_photos/dummy.jpg"
   },
   {
     "name": "Raman",
     "position": "Researcher",
-    "image": "/team_photos/dummy.jpg",
+    "image": "./team_photos/dummy.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/",
       "twitter": "https://twitter.com/",
@@ -59,7 +59,7 @@
   {
     "name": "Gautam",
     "position": "Developer",
-    "image": "/team_photos/gautamKumar.jpg",
+    "image": "./team_photos/gautamKumar.jpg",
     "socials": {
       "twitter": "https://x.com/0xgautxm",
       "github": "https://github.com/whoisgautxm"
@@ -69,7 +69,7 @@
   {
     "name": "Aryan Dharwa",
     "position": "Developer",
-    "image": "/team_photos/aryanDharwa.jpg",
+    "image": "./team_photos/aryanDharwa.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/aryandharwa/",
       "twitter": "https://x.com/aryandharwa",
@@ -80,7 +80,7 @@
   {
     "name": "Shivansh Gupta",
     "position": "Developer",
-    "image": "/team_photos/shivanshGupta.png",
+    "image": "./team_photos/shivanshGupta.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/shivansh-gupta-iitd",
       "twitter": "https://x.com/shivansheth",
@@ -91,7 +91,7 @@
   {
     "name": "Arnav Panjla",
     "position": "Developer",
-    "image": "/team_photos/foto6.png",
+    "image": "./team_photos/foto6.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/arnav-panjla-a71309299/",
       "twitter": "https://x.com/ArnavPanjla",
@@ -103,7 +103,7 @@
   {
     "name": "Akshat Shandilya",
     "position": "Researcher",
-    "image": "/team_photos/akshatShandilya.jpg",
+    "image": "./team_photos/akshatShandilya.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/akshat-shandilya-490a762b0/",
       "twitter": "https://x.com/A_Shandilya2005",
@@ -114,7 +114,7 @@
   {
     "name": "Reeshabh Kotecha",
     "position": "Researcher",
-    "image": "/team_photos/reeshabKotecha.jpeg",
+    "image": "./team_photos/reeshabKotecha.jpeg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
       "github": "https://github.com/reeshabh-k"
@@ -124,7 +124,7 @@
   {
     "name": "Nikhilesh",
     "position": "Developer",
-    "image": "/team_photos/nikhilesh.png",
+    "image": "./team_photos/nikhilesh.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
       "github": "https://github.com/reeshabh-k"
@@ -134,7 +134,7 @@
   {
     "name": "Prasoon Raj",
     "position": "Marketing Manager",
-    "image": "/team_photos/prasoon.png",
+    "image": "./team_photos/prasoon.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
       "github": "https://github.com/reeshabh-k"
@@ -144,7 +144,7 @@
   {
     "name": "Rupaditya",
     "position": "Community Manager",
-    "image": "/team_photos/rupadityaAdireddy.jpeg",
+    "image": "./team_photos/rupadityaAdireddy.jpeg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/rupaditya-adireddy-9576b6282/",
       "twitter": "https://x.com/rupaditya_",
@@ -155,7 +155,7 @@
   {
     "name": "Aditya Bansal",
     "position": "Developer",
-    "image": "/team_photos/adityaBansal.jpg",
+    "image": "./team_photos/adityaBansal.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/aditya-bansal-b38b67281/",
       "github": "https://github.com/adibansal29"
@@ -164,7 +164,7 @@
   {
     "name": "Ramakrishna Gena",
     "position": "Developer",
-    "image": "/team_photos/ramkrishnaGena.png",
+    "image": "./team_photos/ramkrishnaGena.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/ramkrishna-gena-b29424307"
     },
@@ -173,7 +173,7 @@
   {
     "name": "Tejashvi Kumawat",
     "position": "Designer",
-    "image": "/team_photos/tejashviKumawat.png",
+    "image": "./team_photos/tejashviKumawat.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/tejashvi-kumawat/",
       "twitter": "https://x.com/tejashvi_iitd",
@@ -184,7 +184,7 @@
   {
     "name": "Kushagrah Jain",
     "position": "Events Manager",
-    "image": "/team_photos/kushagrahJain.jpeg",
+    "image": "./team_photos/kushagrahJain.jpeg",
     "socials": {
       "linkedin": "www.linkedin.com/in/kushagrah-jain-b83187286"
     }
@@ -192,7 +192,7 @@
   {
     "name": "Aryan Giri",
     "position": "Events Manager",
-    "image": "/team_photos/aryanGiri.jpeg",
+    "image": "./team_photos/aryanGiri.jpeg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/aryan-giri-42a83127b"
     }

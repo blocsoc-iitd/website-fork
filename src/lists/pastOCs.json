@@ -5,7 +5,7 @@
         "year": "2018",
         "batch": "(2015-2019)",
         "linkedin": "https://www.linkedin.com/in/aagrxyz/",
-        "image": "/pastocs/dummy.jpg"
+        "image": "./pastocs/dummy.jpg"
     },
     {
         "name": "Monal Gupta",
@@ -13,6 +13,6 @@
         "year": "2024-25",        
         "batch": "(2021-2025)",
         "linkedin": "https://www.linkedin.com/in/monalgupta03/",
-        "image": "/pastocs/monalGupta.jpg"
+        "image": "./pastocs/monalGupta.jpg"
       }
 ]
