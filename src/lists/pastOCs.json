@@ -1,16 +1,24 @@
 [
     {
-        "name": "Pata nahi ",
-        "role": "Founder of blocSoc",
-        "year": "2018",
-        "batch": "(2015-2019)",
+        "name": "Sania Goyal",
+        "role": "Overall Coordinator",
+        "year": "2022",
+        "batch": "(2020-2024)",
+        "linkedin": "https://www.linkedin.com/in/aagrxyz/",
+        "image": "./pastocs/dummy.jpg"
+    },
+    {
+        "name": "Anup Kulkarni",
+        "role": "Overall Coordinator",
+        "year": "2023",
+        "batch": "(2020-2024)",
         "linkedin": "https://www.linkedin.com/in/aagrxyz/",
         "image": "./pastocs/dummy.jpg"
     },
     {
         "name": "Monal Gupta",
         "role": "President",
-        "year": "2024-25",        
+        "year": "2024",        
         "batch": "(2021-2025)",
         "linkedin": "https://www.linkedin.com/in/monalgupta03/",
         "image": "./pastocs/monalGupta.jpg"

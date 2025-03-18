@@ -99,17 +99,6 @@ export default function Projects() {
                           Code
                         </a>
                       )}
-                      {project.visit && (
-                        <a 
-                          href={project.visit}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition"
-                        >
-                          <ExternalLink className="w-4 h-4" />
-                          Visit
-                        </a>
-                      )}
                     </div>
                   </div>
                 </div>

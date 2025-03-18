@@ -23,8 +23,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-          Blocsoc IITD is a community of developers, innovators, and problem solvers fostering 
-          technical excellence and creative engineering at IIT Delhi since 2021.
+          Blocsoc IITD is a community of cracked researchers, developers and problem solvers contributing regularly to the industry in DeFi, Zero Knowledge, Modular Infrastructure, Cryptography, Consensus protocols.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
@@ -41,9 +40,9 @@ const Hero = () => {
         
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
           {[
-            { icon: Code, title: "50+ Projects", desc: "Open source contributions" },
-            { icon: Terminal, title: "20+ Events", desc: "Workshops & hackathons yearly" },
-            { icon: Cpu, title: "Community of 1000+", desc: "Active developer community" }
+            { icon: Code, title: "10+ Projects", desc: "Open source contributions" },
+            { icon: Terminal, title: "15+ Events", desc: "Workshops & hackathons yearly" },
+            { icon: Cpu, title: "Community of 1500+", desc: "Active developer community" }
           ].map((item, i) => (
             <div key={i} className="p-6 rounded-xl backdrop-blur-md bg-blue-950/10 border border-blue-500/10 relative z-10">
               <item.icon className="w-8 h-8 text-blue-400 mb-4 mx-auto" />

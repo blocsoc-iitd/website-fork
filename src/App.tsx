@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,7 +11,7 @@ import Team from './pages/Team';
 import NotFound from './pages/NotFound';
 import Communities from './pages/Communities';  // Add this import
 import PastOCs from './pages/PastOCs';  // Add this import
-
+import { TwitterTweetEmbed} from 'react-twitter-embed';
 
 
 import eventsData from './lists/events.json';
@@ -82,10 +81,10 @@ function App() {
                 <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300">Why Blocsoc?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                   {[
-                    { icon: Code, title: "Learn", desc: "Master modern technologies through hands-on projects and workshops" },
-                    { icon: Brain, title: "Innovate", desc: "Build solutions that impact thousands of students" },
-                    { icon: Users, title: "Connect", desc: "Join a vibrant community of passionate developers" },
-                    { icon: Rocket, title: "Grow", desc: "Launch your tech career with industry exposure" }
+                    { icon: Code, title: "Learn", desc: "Get your first steps in web3 correctly with us" },
+                    { icon: Brain, title: "Research", desc: "Research new protocols and contribute to them" },
+                    { icon: Users, title: "Build", desc: "Build along with the cracked teams" },
+                    { icon: Rocket, title: "Grow", desc: "Launch your web3 career with industry exposure" }
                   ].map((item, i) => (
                     <div key={i} className="p-6 rounded-xl backdrop-blur-md bg-blue-950/10 border border-blue-500/10 hover:border-blue-500/30 transition group">
                       <item.icon className="w-8 h-8 text-blue-400 mb-4 group-hover:scale-110 transition" />
@@ -132,17 +131,6 @@ function App() {
                             >
                               <Github className="w-4 h-4" />
                               Code
-                            </a>
-                          )}
-                          {project.visit && (
-                            <a 
-                              href={project.visit}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition"
-                            >
-                              <ExternalLink className="w-4 h-4" />
-                              Visit
                             </a>
                           )}
                         </div>
@@ -203,19 +191,9 @@ function App() {
                     </div>
                   </div>
                   
-                  <div className="aspect-video w-full">
-                  <iframe
-                    className="w-full h-full rounded-xl"
-                    src="https://x.com/0xblocsoc"
-                    frameBorder="0"
-                    scrolling="no"
-                    allowTransparency={true}
-                  ></iframe>
-                  {/* <img 
-                        src="/iframes/twitter.png" 
-                        alt="Twitter Feed"
-                        className="w-full object-fit rounded-xl"
-                      /> */}
+                  <div className="flex justify-center w-full">
+                    {/* @todo fix this */}
+                       <TwitterTweetEmbed tweetId={'1889729121212637564'}/>
                   </div>
                   
                   <div className="mt-6 text-center">
@@ -241,33 +219,26 @@ function App() {
             <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                  <h2 className="text-4xl font-bold mb-4">IITD Blockchain review</h2>
-                  <p className="text-xl text-gray-400">Learn and grow with our tech tutorials and blogs</p>
+                  <h2 className="text-4xl font-bold mb-4">IIT Blockchain review</h2>
+                  <p className="text-xl text-gray-400">Access latest blogs on web3</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                   {/* Featured Video Embed */}
                   <div className="aspect-video w-full">
-                    {/* <iframe
-                      width="100%"
-                      height="100%"
-                      src="https://substack.com/@iitblockchainreview"
-                      title="IIT Blockchain Review"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    ></iframe> */}
+                  {/* @todo fix this */}
                     <img 
-                        src="/iframes/substack.png" 
+                        src="./iframes/substack.png" 
                         alt="substack Feed"
                         className="w-full object-fit rounded-xl"
                       />
                   </div>
-                  
+
                   {/* Channel Info */}
                   <div className="flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
                     <h3 className="text-2xl font-bold mb-4">IITD Blockchain review</h3>
                     <p className="text-gray-400 mb-6">
-                      Subscribe to our channel for tech tutorials.blogs and learning resources.
+                      Read our latest articles on ZKVMs, Cryptography, Consensus, DeFi and more.
                     </p>
                     <a
                       href="https://substack.com/@iitblockchainreview"
@@ -290,7 +261,7 @@ function App() {
               <div className="max-w-4xl mx-auto text-center backdrop-blur-sm rounded-2xl p-8">
               <h2 className="text-4xl font-bold mb-6">Ready to Join Blocsoc?</h2>
               <p className="text-xl text-gray-400 mb-8">
-                Be part of IIT Delhi's largest technical club and start your development journey today.
+                Be part of India's Best Blockchain Community and learn from the best.
               </p>
               <a 
                 href="https://linktr.ee/blocsoc_iitd"

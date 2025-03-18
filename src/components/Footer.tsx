@@ -15,8 +15,7 @@ const Footer = () => {
               <span className="ml-2 text-xl font-bold text-white">Blosoc IITD</span>
             </div>
             <p className="text-sm">
-            Since 2021, BlocSoc has been nurturing a culture of software development and innovation at IIT Delhi.
-            Be part of our journey to promote technical excellence and empower the next generation of tech leaders.
+            Since 2021, BlocSoc has been leading the research and development in blockchain tech across India.
             </p>
           </div>
           
@@ -34,8 +33,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <a href="mailto:blocsociitd.ac.in" className="hover:text-blue-400 transition">
-                blocsociitd.ac.in
+                <a href="mailto:blockchainsoc@iitd.ac.in" className="hover:text-blue-400 transition">
+                blockchainsoc[@]iitd[.]ac[.]in
                 </a>
               </li>
               <li className="flex items-center">
@@ -49,7 +48,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://instagram.com/" 
+                href="https://instagram.com/blocsoc.eth" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 transition"
@@ -80,9 +79,6 @@ const Footer = () => {
               >
                 <Github className="w-6 h-6" />
               </a>
-            </div>
-            <div className="mt-4">
-              <p className="text-sm">Stay updated with our latest news, events, and projects!</p>
             </div>
           </div>
         </div>
