@@ -5,7 +5,7 @@ import Background from '../components/Background';
 import { Github } from 'lucide-react';
 import allProjects from "../lists/projects.json";
 
-const categories = ["All", "OG", "ZK", "DeFi", "Modular", "Compilers", "Ethereum", "Solana", "Avalanche", "STARKS", "SNARKS", "Perpetuals", "OpCode", "Groth16", "AIR", "FRI","ECC", "DA", "Celestia", "AI", "Social", "Galadriel"];
+const categories = ["All", "OG", "ZK", "DeFi", "Modular", "Compilers", "Ethereum", "Solana", "AI", "Game", "Avalanche", "STARKS", "SNARKS", "Perpetuals", "OpCode", "Groth16", "AIR", "FRI","ECC", "DA", "Celestia", "Social", "Galadriel", "Mina"];
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("All");

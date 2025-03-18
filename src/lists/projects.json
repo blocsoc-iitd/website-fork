@@ -28,6 +28,20 @@
     "github": "https://github.com/Arnav-panjla/Zudoku"
   },
   {
+    "title": "Token Twist",
+    "description": "Slot machine game",
+    "image": "./projects/tt.jpg",
+    "tech": ["ZK", "Mina", "Game"],
+    "github": "https://github.com/RamanS1819/zknoid-Token-Twist-"
+  },
+  {
+    "title": "Power Clash",
+    "description": "On chain version of Rock Paper Scissors",
+    "image": "./projects/pc.webp",
+    "tech": ["ZK", "Mina", "Game"],
+    "github": "https://github.com/RamanS1819/Power-Clash"
+  },
+  {
     "title": "Groth 16 Rust",
     "description": "Rust implementation of Groth 16",
     "image": "./projects/groth16.jpg",
@@ -75,6 +89,13 @@
     "image": "./projects/quarklayer.avif",
     "tech": ["ZK", "Modular", "OG"],
     "github": "https://github.com/sausaging"
+  },
+  {
+    "title": "Hyper Wasm",
+    "description": "Wasm VM for Hyper SDK",
+    "image": "./projects/hyperwasm.jpg",
+    "tech": ["Wasm", "Avalanche", "OG"],
+    "github": "https://github.com/manojkgorle/hypersdk/tree/main/examples/tokenvm"
   },
   {
     "title": "Praxis Finance:",

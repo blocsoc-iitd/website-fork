@@ -1,5 +1,4 @@
 import { Mail, MapPin, Twitter, Linkedin, Github, Instagram, Youtube } from 'lucide-react';
-import { TwitterDMButton } from 'react-twitter-embed';
 
 const Footer = () => {
   return (
