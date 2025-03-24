@@ -36,7 +36,7 @@ export default function Communities() {
               A quintessential researcher role.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["Cryptography", "Concensus", "Game Theory"].map((tag, i) => (
+                {["Cryptography", "Concensus", "Game Theory", "DeFi"].map((tag, i) => (
                   <span key={i} className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-300 text-sm">
                     {tag}
                   </span>

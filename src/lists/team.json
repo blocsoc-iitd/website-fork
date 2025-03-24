@@ -6,7 +6,8 @@
     "socials": {
       "linkedin": "https://in.linkedin.com/in/subodh-sharma-b05924b",
       "twitter": "https://x.com/subodhsharma",
-      "github": "https://github.com/subodhvsharma"
+      "github": "https://github.com/subodhvsharma",
+      "website": "https://subodhvsharma.github.io/"
     },
     "quote": "Disrupt the status quo"
   },
@@ -35,7 +36,7 @@
   {
     "name": "Muskan Kumari",
     "position": "Researcher",
-    "image": "./team_photos/dummy.jpg",
+    "image": "https://pbs.twimg.com/profile_images/1842133859221008385/5YXkiaKu_400x400.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/",
       "twitter": "https://twitter.com/",
@@ -55,12 +56,12 @@
   {
     "name": "Saksham Kumar",
     "position": "Partnership Manager",
-    "image": "./team_photos/dummy.jpg"
+    "image": "./team_photos/saksham.png"
   },
   {
     "name": "Raman",
     "position": "Researcher",
-    "image": "./team_photos/dummy.jpg",
+    "image": "./team_photos/raman.jpg",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/",
       "twitter": "https://twitter.com/",
@@ -137,20 +138,20 @@
     "position": "Developer",
     "image": "./team_photos/nikhilesh.png",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
-      "github": "https://github.com/reeshabh-k"
+      "linkedin": "https://www.linkedin.com/in/nikhileshwaran-nagarajan-5831a628b/",
+      "github": "https://github.com/nikillxh"
     },
-    "quote": "💰💰💰💰💰💰"
+    "quote": "I use arch btw"
   },
   {
     "name": "Prasoon Raj",
     "position": "Marketing Manager",
-    "image": "./team_photos/prasoon.png",
+    "image": "./team_photos/prasoon.jpg",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
-      "github": "https://github.com/reeshabh-k"
+      "linkedin": "https://www.linkedin.com/in/prasoon-raj-4b0369289/",
+      "github": "https://github.com/TREX4096"
     },
-    "quote": "💰💰💰💰💰💰"
+    "quote": "wannabe, batti vibhag ka DR4"
   },
   {
     "name": "Rupaditya",

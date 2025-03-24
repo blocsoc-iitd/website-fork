@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Background from '../components/Background';
-import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Twitter } from 'lucide-react';
 import teamMembers from "../lists/team.json";
 
 const TeamMember = ({ 
@@ -20,6 +20,7 @@ const TeamMember = ({
     linkedin?: string;
     email?: string;
     website?: string;
+    twitter?: string;
   };
   className?: string;
 }) => {
@@ -43,6 +44,15 @@ const TeamMember = ({
               className="text-gray-400 hover:text-white transition"
             >
               <Github className="w-5 h-5" />
+            </a>
+          )}{socials?.twitter && (
+            <a 
+              href={socials.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition"
+            >
+              <Twitter className="w-5 h-5" />
             </a>
           )}
           {socials?.linkedin && (
