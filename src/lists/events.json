@@ -1,7 +1,27 @@
 [
 {
+    "title": "Atattva Jnana - ZK Workshop",
+    "date": "August 30-31, 2025",
+    "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
+    "image": "./events/atattvajnana.png",
+    "location": "IIT Delhi",
+    "participants": "40",
+    "registrationLink": "https://zket.vercel.app/",
+    "category": "Workshop"
+},
+{
+    "title": "Avax Hackathon",
+    "date": "August 16-17, 2025",
+    "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
+    "image": "./events/avax_hack.jpeg",
+    "location": "Mumbai",
+    "participants": "12",
+    "registrationLink": "",
+    "category": "Hackathon"
+},
+{
     "title": "BC106 Cohort 3",
-    "date": "August, 2025",
+    "date": "October, 2025",
     "description": "The Blockchain cohort to onboard university freshers & sophomores to Web3.",
     "image": "./events/bc106_3.png",
     "location": "IIT Delhi",

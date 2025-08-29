@@ -40,9 +40,9 @@ const Hero = () => {
         
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
           {[
-            { icon: Code, title: "10+ Projects", desc: "Open source contributions" },
-            { icon: Terminal, title: "15+ Events", desc: "Workshops & hackathons yearly" },
-            { icon: Cpu, title: "Community of 1500+", desc: "Active developer community" }
+            { icon: Code, title: "15+ Projects", desc: "Open source contributions" },
+            { icon: Terminal, title: "20+ Events", desc: "Workshops & hackathons yearly" },
+            { icon: Cpu, title: "Community of 1700+", desc: "Active developer community" }
           ].map((item, i) => (
             <div key={i} className="p-6 rounded-xl backdrop-blur-md bg-blue-950/10 border border-blue-500/10 relative z-10">
               <item.icon className="w-8 h-8 text-blue-400 mb-4 mx-auto" />
