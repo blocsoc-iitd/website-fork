@@ -220,39 +220,49 @@ function App() {
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl font-bold mb-4">IIT Blockchain review</h2>
-                  <p className="text-xl text-gray-400">Access latest blogs on web3</p>
+                  <p className="text-xl text-gray-400">
+                    Stay updated with our latest articles and insights.
+                  </p>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-4xl mx-auto">
+                  <div className="flex justify-center aspect-video w-full">
+                    <iframe
+                      src="https://iitblockchainreview.substack.com/embed"
+                      width={800}
+                      height={320}
+                      style={{ border: '1px solid rounded-xl #EEE', background: 'white' }}
+                      frameBorder="0"
+                      scrolling="no">
+                    </iframe>
+                  </div>
+                </div> */}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                   {/* Featured Video Embed */}
-                  <div className="aspect-video w-full">
-                  {/* @todo fix this */}
-                    <img 
-                        src="./iframes/substack.png" 
-                        alt="substack Feed"
-                        className="w-full object-fit rounded-xl"
-                      />
+                  <div className="aspect-video w-full flex justify-center">
+                    {/* @todo fix this */}
+                    <iframe
+                      src="https://iitblockchainreview.substack.com/embed"
+                      width={520}
+                      height={320}
+                      style={{ border: '1px solid rounded-xl #EEE', background: 'white' }}
+                      frameBorder="0"
+                      scrolling="no"
+                    ></iframe>
                   </div>
 
                   {/* Channel Info */}
-                  <div className="flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
-                    <h3 className="text-2xl font-bold mb-4">IIT Blockchain review</h3>
-                    <p className="text-gray-400 mb-6">
+                  <div className="hidden md:flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
+                    <p className="text-xl text-gray-400 mb-6">
                       Read our latest articles on ZKVMs, Cryptography, Consensus, DeFi and more.
+                      <br />
+                      Subscribe now to get our latest articles delivered to your inbox.
                     </p>
-                    <a
-                      href="https://substack.com/@iitblockchainreview"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-800 transition rounded-full text-white w-fit"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-substack" viewBox="0 0 16 16">
-                        <path d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"/>
-                      </svg>
-                      Subscribe Now
-                    </a>
                   </div>
                 </div>
+
+
               </div>
             </section>
 
