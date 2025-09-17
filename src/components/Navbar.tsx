@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link to="/projects" className="text-gray-300 hover:text-blue-400 transition">Projects</Link>
             <Link to="/team" className="text-gray-300 hover:text-blue-400 transition">Team</Link>
             <Link to="/past-ocs" className="text-gray-300 hover:text-blue-400 transition">Past OCs</Link>
-            <Link to="https://zket.blocsoc.in/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition">Atattva Jnana</Link>
+            <Link to="https://luma.com/cj5l6pwi" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition">Interfaces_2025</Link>
             <div className="h-6 w-px bg-blue-500/30"></div>
             <a 
               href="https://github.com/blocsoc-iitd" 

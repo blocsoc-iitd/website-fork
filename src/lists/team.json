@@ -117,5 +117,77 @@
       "github": "https://github.com/tejashvi-kumawat"
     },
     "quote": "Dedication Drives Achievement."
+  },
+  {
+    "name": "Ishita Bhardwaj",
+    "position": "Developer",
+    "image": "./team_photos/ishitabhardwaj.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Tanisha Sanswan",
+    "position": "Developer",
+    "image": "./team_photos/tanisha.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Harsh Verma",
+    "position": "Developer",
+    "image": "./team_photos/harshverma.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Vedant Singhal",
+    "position": "Events",
+    "image": "./team_photos/vedantsinghal.png",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Sidhi",
+    "position": "Designer",
+    "image": "./team_photos/sidhi.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Shreemayi",
+    "position": "Events",
+    "image": "./team_photos/shreemayi.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Parth Rathi",
+    "position": "Developer",
+    "image": "./team_photos/parthrathi.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Suzanne Jolly",
+    "position": "Events",
+    "image": "./team_photos/suzannejolly.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Sahitya",
+    "position": "Rare Pokemon",
+    "image": "./team_photos/sahitya.jpg",
+    "socials": {
+    },
+    "quote": "pata nahi"
   }
 ]
