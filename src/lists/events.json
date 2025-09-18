@@ -1,5 +1,15 @@
 [
 {
+    "title": "interfaces 2025",
+    "date": "September 24, 2025",
+    "description": "Interfaces brings together researchers, builders, students, and industry leaders to explore the critical questions shaping Ethereum today.",
+    "image": "./events/interfaces.jpg",
+    "location": "IIT Delhi",
+    "participants": "100",
+    "registrationLink": "https://luma.com/cj5l6pwi",
+    "category": "Workshop"
+},
+{
     "title": "Atattva Jnana - ZK Workshop",
     "date": "August 30-31, 2025",
     "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",

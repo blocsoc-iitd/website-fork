@@ -12,7 +12,7 @@ const Footer = () => {
                 alt="DevClub Logo" 
                 className="h-8 w-auto"
               />
-              <span className="ml-2 text-xl font-bold text-white">Blosoc IITD</span>
+              <span className="ml-2 text-xl font-bold text-white">BlocSoc IITD</span>
             </div>
             <p className="text-sm">
             Since 2022, BlocSoc has been leading the research and development in blockchain tech across India.
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t borde</svg>r-blue-500/20 text-center text-sm">
-          <p>© {new Date().getFullYear()} Blocsoc IITD. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BlocSoc IITD. All rights reserved.</p>
           <p className="mt-2 text-gray-400">
             Made with ❤️ by DevClub IITD
           </p>
