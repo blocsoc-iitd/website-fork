@@ -6,17 +6,17 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full backdrop-blur-md bg-black/30 border-b border-blue-500/20 z-50">
+    <nav className="w-full backdrop-blur-md bg-black/30 border-b border-blue-500/20 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center">
+            <Link to="/" className="flex flex-row items-center">
               <img 
               src="https://github.com/blocsoc-iitd.png" 
               alt="Blocsoc Logo" 
               className="h-8 w-auto"
               />
-              <span className="ml-2 text-xl font-bold text-white">BlocSoc IITD</span>
+              <span className="mx-2 text-xl text-center font-bold text-white">BlocSoc IITD</span>
             </Link>
           </div>
           
@@ -56,7 +56,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-md">
-          <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Home</Link>
+          <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-blue-400 text-lg md:text-xl">Home</Link>
           <Link to="/communities" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Communities</Link>
           <Link to="/events" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Events</Link>
           <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Projects</Link>
