@@ -1,12 +1,12 @@
 [
 {
-    "title": "interfaces 2025",
+    "title": "Interfaces 2025",
     "date": "September 24, 2025",
     "description": "Interfaces brings together researchers, builders, students, and industry leaders to explore the critical questions shaping Ethereum today.",
     "image": "./events/interfaces.jpg",
     "location": "IIT Delhi",
     "participants": "100",
-    "registrationLink": "https://luma.com/cj5l6pwi",
+    "registrationLink": "https://interfaces.blocsoc.in/",
     "category": "Workshop"
 },
 {
@@ -20,7 +20,7 @@
     "category": "Workshop"
 },
 {
-    "title": "Avax Hackathon",
+    "title": "AVAX Mumbai Hackathon '25",
     "date": "August 16-17, 2025",
     "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
     "image": "./events/avax_hack.jpeg",
@@ -59,7 +59,7 @@
     "category": "Hackathon"
 },
 {
-    "title": "ETH India 24",
+    "title": "ETH India '24",
     "date": "December 24",
     "description": "A 3 day long Ethereum hackathon organised by Devfolio",
     "image": "./events/eth_india_24.jpg",
@@ -79,7 +79,7 @@
     "category": "Internal"
 },
 {
-    "title": "ETH Singapore 24",
+    "title": "ETH Singapore '24",
     "date": "September 24",
     "description": "A 3 day long Ethereum hackathon",
     "image": "./events/eth_singapore_24.jpg",

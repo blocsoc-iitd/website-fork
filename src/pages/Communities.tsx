@@ -23,7 +23,7 @@ export default function Communities() {
       </section>
 
       {/* Featured Community - Spark Bootcamp */}
-      <section className="py-16 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+      <section className="py-16 px-4 bg-linear-to-b from-transparent via-blue-950/20 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -80,7 +80,7 @@ export default function Communities() {
                   className="w-full h-full object-cover transition duration-300 group-hover:scale-110"
                 />
               </div>
-              <div className="p-6 bg-gradient-to-b from-blue-950/20 to-transparent backdrop-blur-sm">
+              <div className="p-6 bg-linear-to-b from-blue-950/20 to-transparent backdrop-blur-xs">
                 <div className="flex items-center gap-2 mb-4">
                   {community.active ? (
                     <span className="px-3 py-1 rounded-full bg-green-500/20 text-green-400 text-sm">Active</span>

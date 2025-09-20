@@ -12,7 +12,7 @@ export default function NotFound() {
       <section className="flex flex-col items-center justify-center py-24">
         <h1 
           className="text-9xl font-extrabold text-transparent bg-clip-text 
-                     bg-gradient-to-r from-white to-white/20 tracking-widest mb-8"
+                     bg-linear-to-r from-white to-white/20 tracking-widest mb-8"
         >
           4
         0

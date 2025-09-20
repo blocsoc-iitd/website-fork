@@ -26,7 +26,7 @@ function App() {
     <Router basename='/'>
       <Routes>
         <Route path="/" element={
-          <div className="min-h-screen bg-black text-white">
+          <div className="flex flex-col w-full min-h-screen bg-black text-white">
             <Background />
             <Navbar />
             <Hero />
@@ -43,7 +43,7 @@ function App() {
                         alt={event.title}
                         className="w-full h-64 object-cover transition duration-300 group-hover:scale-110"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end">
+                      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end">
                         <div className="text-blue-400 mb-2">{event.date}</div>
                         <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
                         <p className="text-gray-300">{event.description}</p>
@@ -76,9 +76,9 @@ function App() {
             </section>
 
             {/* Vision Cards */}
-            <section className="relative py-20 px-4 before:absolute before:inset-0 before:bg-gradient-to-b before:from-black/90 before:via-blue-950/20 before:to-transparent before:-z-10">
+            <section className="relative py-20 px-4 before:absolute before:inset-0 before:bg-linear-to-b before:from-black/90 before:via-blue-950/20 before:to-transparent before:-z-10">
               <div className="max-w-7xl mx-auto relative z-10">
-                <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300">Why Blocsoc?</h2>
+                <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-linear-to-b from-white to-gray-300">Why Blocsoc?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                   {[
                     { icon: Code, title: "Learn", desc: "Get your first steps in web3 correctly with us" },
@@ -100,7 +100,7 @@ function App() {
             </section>
 
             {/* Featured Projects */}
-            <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+            <section className="py-20 px-4 bg-linear-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-16">Featured Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -111,7 +111,7 @@ function App() {
                         alt={project.title}
                         className="w-full h-64 object-cover transition duration-300 group-hover:scale-110"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end">
+                      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end">
                         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                         <p className="text-gray-300 mb-4">{project.description}</p>
                         <div className="flex flex-wrap gap-2">
@@ -164,19 +164,20 @@ function App() {
             </section>
 
             {/* Twitter Feed Section */}
-            <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+            <section className="py-20 px-4 bg-linear-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl font-bold mb-4">Follow Us on Twitter</h2>
                   <p className="text-xl text-gray-400">Stay updated with our latest events and projects</p>
                 </div>
                 
-                <div className="instagram-embed rounded-2xl p-8 max-w-3xl mx-auto">
-                  <div className="flex items-center gap-4 mb-6">
+                <div className="instagram-embed rounded-2xl p-8 max-w-2xl mx-auto">
+                  <Link className="flex justify-center items-center gap-4 mb-6"
+                    href="https://x.com/0xblocsoc">
                     <img
                       src="https://github.com/blocsoc-iitd.png"
                       alt="BlocSoc IITD"
-                      className="w-16 h-16 rounded-full border-2 border-blue-500"
+                      className="w-20 h-20 rounded-xl border-2 border-blue-500 p-2"
                     />
                     <div>
                       <h3 className="instagram-header text-2xl font-bold mb-1">BlocSoc IITD</h3>
@@ -189,7 +190,7 @@ function App() {
                         @0xblocsoc
                       </a>
                     </div>
-                  </div>
+                  </Link>
                   
                   <div className="flex justify-center w-full">
                     {/* @todo fix this */}
@@ -216,7 +217,7 @@ function App() {
             </section>
 
             {/* substack Channel Section */}
-            <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+            <section className="py-20 px-4 bg-linear-to-b from-transparent via-blue-950/20 to-transparent">
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl font-bold mb-4">IIT Blockchain review</h2>
@@ -244,7 +245,7 @@ function App() {
                     {/* @todo fix this */}
                     <iframe
                       src="https://iitblockchainreview.substack.com/embed"
-                      width={520}
+                      width={480}
                       height={320}
                       style={{ border: '1px solid rounded-xl #EEE', background: 'white' }}
                       frameBorder="0"
@@ -253,7 +254,7 @@ function App() {
                   </div>
 
                   {/* Channel Info */}
-                  <div className="hidden md:flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
+                  <div className="hidden md:flex flex-col justify-center p-6 bg-linear-to-br from-blue-950/40 via-transparent to-blue-950/40 rounded-xl border border-blue-500/10">
                     <p className="text-xl text-gray-400 mb-6">
                       Read our latest articles on ZKVMs, Cryptography, Consensus, DeFi and more.
                       <br />
@@ -267,8 +268,8 @@ function App() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 px-4 bg-gradient-to-b via-blue-950/20">
-              <div className="max-w-4xl mx-auto text-center backdrop-blur-sm rounded-2xl p-8">
+            <section className="py-20 px-4 bg-linear-to-b via-blue-950/20">
+              <div className="max-w-4xl mx-auto text-center backdrop-blur-xs rounded-2xl p-8">
               <h2 className="text-4xl font-bold mb-6">Ready to Join Blocsoc?</h2>
               <p className="text-xl text-gray-400 mb-8">
                 Be part of India's Best Blockchain Community and learn from the best.
