@@ -4,7 +4,7 @@ import '../components/supercoolbutton.css';
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black via-blue-950/20 to-black/50 pt-40">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-b from-black via-blue-950/20 to-black/50 pt-40">
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,123,255,0.1),rgba(0,0,0,0.3))]"></div>
       </div>
@@ -27,7 +27,7 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
-            <Link to="/communities" className="shiny-cta !px-8 !py-3">
+            <Link to="/communities" className="shiny-cta px-8! py-3!">
               <span>Communities</span>
             </Link>
           <Link 

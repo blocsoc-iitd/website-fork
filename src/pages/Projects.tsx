@@ -56,7 +56,7 @@ export default function Projects() {
             <input
               type="text"
               placeholder="Search projects..."
-              className="px-4 py-2 bg-blue-950/20 border border-blue-500/20 rounded-full focus:outline-none focus:border-blue-500/50 transition"
+              className="px-4 py-2 bg-blue-950/20 border border-blue-500/20 rounded-full focus:outline-hidden focus:border-blue-500/50 transition"
               onChange={(e) => setSearchQuery(e.target.value)}
               value={searchQuery} // Ensure the input is controlled
             />
@@ -76,7 +76,7 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-48 object-cover transition duration-300 group-hover:scale-110"
                   />
-                  <div className="p-6 bg-gradient-to-b from-blue-950/20 to-transparent backdrop-blur-sm">
+                  <div className="p-6 bg-linear-to-b from-blue-950/20 to-transparent backdrop-blur-xs">
                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                     <p className="text-gray-400 mb-4 line-clamp-2">{project.description}</p>
                     <div className="flex flex-wrap gap-2 mb-4">

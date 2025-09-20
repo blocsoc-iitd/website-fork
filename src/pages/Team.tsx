@@ -31,7 +31,7 @@ const TeamMember = ({
         alt={name}
         className="w-[120%] h-96 object-cover transition duration-300 group-hover:scale-110"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent p-6 flex flex-col justify-end">
+      <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/50 to-transparent p-6 flex flex-col justify-end">
         <h3 className="text-xl font-semibold mb-2">{name}</h3>
         <p className="text-blue-400 text-base mb-4">{position}</p>
         
