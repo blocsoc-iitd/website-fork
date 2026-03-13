@@ -1,4 +1,4 @@
-[ 
+[
   {
     "name": "Subodh Sharma",
     "position": "Faculty incharge",
@@ -119,75 +119,85 @@
     "quote": "Dedication Drives Achievement."
   },
   {
+    "name": "Parth Rathi",
+    "position": "Developer",
+    "image": "./team_photos/parthrathi.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/parthrathix0",
+      "twitter": "https://x.com/parthrathix0",
+      "github": "https://github.com/parthrathix0"
+    },
+    "quote": "Fuck Around and Find Out"
+  },
+  {
+    "name": "Tejasvi Shrivastava",
+    "position": "Developer",
+    "image": "./team_photos/tejasviShrivastava.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/tejasvi-shrivastava-951a58348/",
+      "twitter": "https://x.com/ImperialxTejas",
+      "github": "https://github.com/IMPERIAL-X7"
+    },
+    "quote": "pata nahi"
+  },
+  {
+    "name": "Shivam Maurya",
+    "position": "Developer",
+    "image": "./team_photos/shivamMaurya.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/shivam-maurya-383490311",
+      "twitter": "https://x.com/darkstar_x67",
+      "github": "https://github.com/git-guuud"
+    },
+    "quote": "pata nahi"
+  },
+  {
     "name": "Ishita Bhardwaj",
     "position": "Developer",
     "image": "./team_photos/ishitabhardwaj.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Tanisha Sanswan",
     "position": "Developer",
     "image": "./team_photos/tanisha.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Harsh Verma",
     "position": "Developer",
     "image": "./team_photos/harshverma.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Vedant Singhal",
     "position": "Events",
     "image": "./team_photos/vedantsinghal.png",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Sidhi",
     "position": "Designer",
     "image": "./team_photos/sidhi.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Shreemayi",
     "position": "Events",
     "image": "./team_photos/shreemayi.jpg",
-    "socials": {
-    },
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Parth Rathi",
-    "position": "Developer",
-    "image": "./team_photos/parthrathi.jpg",
-    "socials": {
-    },
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Suzanne Jolly",
-    "position": "Events",
-    "image": "./team_photos/suzannejolly.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   },
   {
     "name": "Sahitya",
     "position": "Developer",
     "image": "./team_photos/sahitya.jpg",
-    "socials": {
-    },
+    "socials": {},
     "quote": "pata nahi"
   }
 ]
