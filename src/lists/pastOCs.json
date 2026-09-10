@@ -22,5 +22,15 @@
         "batch": "(2021-2025)",
         "linkedin": "https://www.linkedin.com/in/monalgupta03/",
         "image": "./pastocs/monalGupta.jpg"
+    },
+    {
+        "name": "Muskan Kumari",
+        "role": "President",
+        "year": "2025",
+        "batch": "(2022-2026)",
+        "image": "https://pbs.twimg.com/profile_images/1842133859221008385/5YXkiaKu_400x400.jpg",
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/",
+        "github": "https://github.com/"
     }
 ]

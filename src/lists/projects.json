@@ -1,4 +1,53 @@
-[ 
+[
+  {
+    "title": "Noir Wallet",
+    "description": "State of the art Hardware Wallet STM32 integrated with ATECC secure element",
+    "image": "./projects/noir.png",
+    "tech": ["Hardware", "Privacy", "OG"],
+    "github": "https://github.com/Arnav-panjla/noir-wallet"
+  },
+  {
+    "title": "Zarklink",
+    "description": "Trustless private Zcash to Starknet bridge. First ZClaim implementation.",
+    "image": "./projects/zarklink.jpg",
+    "tech": ["ZK", "Privacy", "OG"],
+    "github": "https://github.com/nikillxh/zarklink"
+  },
+  {
+    "title": "3zio",
+    "description": "Private ZK fund transfers. Amounts and linkage hidden on-chain.",
+    "image": "./projects/3zio.png",
+    "tech": ["ZK", "Privacy", "DeFi"],
+    "github": "https://github.com/ParthRathix0/3zio"
+  },
+  {
+    "title": "Exos",
+    "description": "Confidential transfers and front-running resistance via EERC20.",
+    "image": "./projects/exos.jpg",
+    "tech": ["Privacy", "DeFi", "Ethereum"],
+    "github": "https://github.com/yraretil/exos"
+  },
+  {
+    "title": "ZK-Kerberos",
+    "description": "Anonymous Kerberos auth. Rights checked without identity.",
+    "image": "./projects/kerberos.png",
+    "tech": ["ZK", "Privacy"],
+    "github": "https://github.com/Arnav-panjla/zk-kerberos"
+  },
+  {
+    "title": "Arcane Pool",
+    "description": "Encrypted AMM on Encrypted ERC-20. Private swaps on Avalanche.",
+    "image": "./projects/apool.jpg",
+    "tech": ["DeFi", "Avalanche", "Privacy"],
+    "github": ""
+  },
+  {
+    "title": "CLOB DEX",
+    "description": "On-chain modular CLOB. Cross-chain via Chainlink CCIP.",
+    "image": "./projects/clob.webp",
+    "tech": ["DeFi", "Modular"],
+    "github": "https://github.com/yraretil/clob-dex"
+  },
   {
     "title": "BrainFuck VM",
     "description": "Rust implementation of BrainSTARK zkVM",
@@ -61,13 +110,6 @@
     "image": "./projects/stark101.jpg",
     "tech": ["ZK", "STARKS", "AIR", "FRI"],
     "github": "https://github.com/blocsoc-iitd/stark101-rs"
-  },
-  {
-    "title": "Chainverse",
-    "description": "A Decentralised AI powered Social Media",
-    "image": "./projects/cverse.webp",
-    "tech": ["AI", "Galadriel", "Social"],
-    "github": "https://github.com/Arnav-panjla/ChainVerse_314"
   },
   {
     "title": "SNACS x HyperSDK",

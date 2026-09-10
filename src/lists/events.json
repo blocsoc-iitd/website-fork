@@ -1,4 +1,44 @@
 [
+        {
+        "title": "SwarmFi",
+        "date": "September 7, 2026",
+        "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
+        "image": "./events/swarmfi.png",
+        "location": "IIT Delhi",
+        "participants": "20",
+        "registrationLink": "https://zket.blocsoc.in/",
+        "category": "Hackathon"
+    },
+    {
+        "title": "ZK Workshop",
+        "date": "October, 2026",
+        "description": "2 day workshop on building zero knowledge proofs",
+        "image": "./events/zk.jpg",
+        "location": "IIT Delhi",
+        "participants": "40",
+        "registrationLink": "https://zket.blocsoc.in/",
+        "category": "Workshop"
+    },
+    {
+        "title": "Defi Workshop",
+        "date": "October, 2025",
+        "description": "2 day workshop on building defi protocols",
+        "image": "./events/defi.avif",
+        "location": "IIT Delhi",
+        "participants": "40",
+        "registrationLink": "https://zket.blocsoc.in/",
+        "category": "Workshop"
+    },
+    {
+        "title": "Monad Hackathon '26",
+        "date": "August 29, 2026",
+        "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
+        "image": "./events/monad.png",
+        "location": "Monad Delhi",
+        "participants": "18",
+        "registrationLink": "",
+        "category": "Hackathon"
+    },
     {
         "title": "Kronos CTF",
         "date": "March 1, 2026",
@@ -21,7 +61,7 @@
     },
     {
         "title": "Atattva Jnana - ZK Workshop",
-        "date": "August 30-31, 2025",
+        "date": "August , 2025",
         "description": "2 day workshop on building zero knowledge proofs from scratch, with Ethereum Foundation",
         "image": "./events/atattvajnana.png",
         "location": "IIT Delhi",

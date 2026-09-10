@@ -1,0 +1,119 @@
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Background from '../components/Background';
+import { Github, Linkedin, Mail, ExternalLink, Twitter } from 'lucide-react';
+import ogsJson from '../lists/ogs.json';
+
+type OG = {
+  name: string;
+  position: string;
+  image: string;
+  socials: {
+    github?: string;
+    linkedin?: string;
+    email?: string;
+    website?: string;
+    twitter?: string;
+  };
+};
+
+const ogs: OG[] = ogsJson;
+
+const OGCard = ({
+  name,
+  position,
+  image,
+  socials,
+}: {
+  name: string;
+  position: string;
+  image: string;
+  socials: {
+    github?: string;
+    linkedin?: string;
+    email?: string;
+    website?: string;
+    twitter?: string;
+  };
+}) => {
+  return (
+    <div className="group relative overflow-hidden rounded-xl border border-blue-500/10 hover:border-blue-500/30 transition">
+      <img
+        src={image}
+        alt={name}
+        className="w-[120%] h-96 object-cover transition duration-300 group-hover:scale-110"
+      />
+      <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/50 to-transparent p-6 flex flex-col justify-end">
+        <h3 className="text-xl font-semibold mb-2">{name}</h3>
+        <p className="text-blue-400 text-base mb-4">{position}</p>
+        <div className="flex gap-3">
+          {socials?.github && (
+            <a href={socials.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <Github className="w-5 h-5" />
+            </a>
+          )}
+          {socials?.twitter && (
+            <a href={socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <Twitter className="w-5 h-5" />
+            </a>
+          )}
+          {socials?.linkedin && (
+            <a href={socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <Linkedin className="w-5 h-5" />
+            </a>
+          )}
+          {socials?.email && (
+            <a href={`mailto:${socials.email}`} className="text-gray-400 hover:text-white transition">
+              <Mail className="w-5 h-5" />
+            </a>
+          )}
+          {socials?.website && (
+            <a href={socials.website} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+              <ExternalLink className="w-5 h-5" />
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default function OGs() {
+  return (
+    <div className="min-h-screen bg-black text-white">
+      <Background />
+      <Navbar />
+
+      <section className="pt-32 pb-20 px-4 relative">
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-5xl font-bold mb-6">The OGs</h1>
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            Alumni who went on to do exceptional work.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-12 px-4">
+        <div className="max-w-7xl mx-auto">
+          {ogs.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+              {ogs.map((member, i) => (
+                <OGCard
+                  key={i}
+                  name={member.name}
+                  position={member.position}
+                  image={member.image}
+                  socials={member.socials}
+                />
+              ))}
+            </div>
+          ) : (
+            <p className="text-center text-gray-400">No OGs listed yet.</p>
+          )}
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}

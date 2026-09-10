@@ -12,61 +12,8 @@
     "quote": "Disrupt the status quo"
   },
   {
-    "name": "Muskan Kumari",
-    "position": "President",
-    "image": "https://pbs.twimg.com/profile_images/1842133859221008385/5YXkiaKu_400x400.jpg",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/",
-      "twitter": "https://twitter.com/",
-      "github": "https://github.com/"
-    }
-  },
-  {
-    "name": "Manoj Kumar Gorle",
-    "position": "Vice President",
-    "image": "./team_photos/manojSer.jpeg",
-    "socials": {
-      "linkedin": "https://linkedin.com/in/manojkgorle",
-      "twitter": "https://twitter.com/manojkgorle",
-      "github": "https://github.com/manojkgorle"
-    },
-    "quote": "Let verification take the control."
-  },
-  {
-    "name": "Siddhi Vivek Sawarkar",
-    "position": "Partnership Manager",
-    "image": "./team_photos/siddhiSawarkar.jpg",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/siddhi-sawarkar-4a7585254",
-      "twitter": "https://twitter.com/SiddhiSawarkar"
-    },
-    "quote": "Be fearless and explore"
-  },
-  {
-    "name": "Raman",
-    "position": "Advisor",
-    "image": "./team_photos/raman.jpg",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/",
-      "twitter": "https://twitter.com/",
-      "github": "https://github.com/RamanS1819"
-    }
-  },
-  {
-    "name": "Arnav Panjla",
-    "position": "Developer",
-    "image": "./team_photos/arnavpanjla.png",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/arnav-panjla-a71309299/",
-      "twitter": "https://x.com/ArnavPanjla",
-      "github": "https://github.com/arnav-panjla",
-      "website": "https://arnav-panjla.github.io/"
-    },
-    "quote": "Don't Trust Verify"
-  },
-  {
     "name": "Nikhilesh",
-    "position": "Developer",
+    "position": "Overall Coordinator",
     "image": "./team_photos/nikhilesh.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/nikhileshwaran-nagarajan-5831a628b/",
@@ -77,46 +24,37 @@
     "quote": "I use arch btw"
   },
   {
-    "name": "Akshat Shandilya",
-    "position": "Researcher",
-    "image": "./team_photos/akshatShandilya.jpg",
+    "name": "Arnav Panjla",
+    "position": "Panel member",
+    "image": "./team_photos/arnavpanjla.png",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/akshat-shandilya-490a762b0/",
-      "twitter": "https://x.com/A_Shandilya2005",
-      "github": "https://github.com/Akshat-Shandilya"
+      "linkedin": "https://www.linkedin.com/in/arnav-panjla-a71309299/",
+      "twitter": "https://x.com/ArnavPanjla",
+      "github": "https://github.com/arnav-panjla",
+      "website": "https://arnav-panjla.github.io/"
     },
-    "quote": "I know exactly what to do. But in a much more real sense, I have no idea what to do."
+    "quote": "Don't Trust Verify"
+  },
+
+  {
+    "name": "Nishika",
+    "position": "Panel member",
+    "image": "./team_photos/nishika.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/",
+      "github": "https://github.com/"
+    },
+    "quote": ""
   },
   {
-    "name": "Reeshabh Kotecha",
-    "position": "Researcher",
-    "image": "./team_photos/reeshabKotecha.jpeg",
+    "name": "Riya",
+    "position": "Panel member",
+    "image": "./team_photos/nishika.jpg",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/reeshabh-kotecha-a4a147212",
-      "github": "https://github.com/reeshabh-k"
+      "linkedin": "https://www.linkedin.com/",
+      "github": "https://github.com/"
     },
-    "quote": "💰💰💰💰💰💰"
-  },
-  {
-    "name": "Prasoon Raj",
-    "position": "Marketing Manager",
-    "image": "./team_photos/prasoon.jpg",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/prasoon-raj-4b0369289/",
-      "github": "https://github.com/TREX4096"
-    },
-    "quote": "wannabe, batti vibhag ka DR4"
-  },
-  {
-    "name": "Tejashvi Kumawat",
-    "position": "Designer",
-    "image": "./team_photos/tejashviKumawat.png",
-    "socials": {
-      "linkedin": "https://www.linkedin.com/in/tejashvi-kumawat/",
-      "twitter": "https://x.com/tejashvi_iitd",
-      "github": "https://github.com/tejashvi-kumawat"
-    },
-    "quote": "Dedication Drives Achievement."
+    "quote": ""
   },
   {
     "name": "Parth Rathi",
@@ -129,6 +67,13 @@
     },
     "quote": "Fuck Around and Find Out"
   },
+  {
+    "name": "Sahitya",
+    "position": "Developer",
+    "image": "./team_photos/sahitya.png",
+    "socials": {},
+    "quote": "Darta hai kya"
+    },
   {
     "name": "Tejasvi Shrivastava",
     "position": "Developer",
@@ -164,40 +109,6 @@
     "image": "./team_photos/tanisha.jpg",
     "socials": {},
     "quote": "pata nahi"
-  },
-  {
-    "name": "Harsh Verma",
-    "position": "Developer",
-    "image": "./team_photos/harshverma.jpg",
-    "socials": {},
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Vedant Singhal",
-    "position": "Events",
-    "image": "./team_photos/vedantsinghal.png",
-    "socials": {},
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Sidhi",
-    "position": "Designer",
-    "image": "./team_photos/sidhi.jpg",
-    "socials": {},
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Shreemayi",
-    "position": "Events",
-    "image": "./team_photos/shreemayi.jpg",
-    "socials": {},
-    "quote": "pata nahi"
-  },
-  {
-    "name": "Sahitya",
-    "position": "Developer",
-    "image": "./team_photos/sahitya.jpg",
-    "socials": {},
-    "quote": "pata nahi"
   }
+ 
 ]
