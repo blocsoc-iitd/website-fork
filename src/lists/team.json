@@ -37,22 +37,22 @@
   },
 
   {
-    "name": "Nishika",
+    "name": "Nishka",
     "position": "Panel member",
-    "image": "./team_photos/nishika.jpg",
+    "image": "./team_photos/nishka.jpg",
     "socials": {
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://github.com/"
+      "linkedin": "https://www.linkedin.com/in/nishka-murarka-6497602a6/",
+      "twitter": "https://x.com/MurNis45549",
+      "github": "https://github.com/belugapurrs"
     },
     "quote": ""
   },
   {
     "name": "Riya",
-    "position": "Panel member",
-    "image": "./team_photos/nishika.jpg",
+    "position": "Coordinator",
+    "image": "./team_photos/riya.png",
     "socials": {
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://github.com/"
+      "linkedin": "https://www.linkedin.com/in/riya-gajra-730687340"
     },
     "quote": ""
   },
@@ -71,7 +71,11 @@
     "name": "Sahitya",
     "position": "Developer",
     "image": "./team_photos/sahitya.png",
-    "socials": {},
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/yraretil/",
+      "twitter": "https://x.com/yraretil_",
+      "github": "https://github.com/yreartil"
+    },
     "quote": "Darta hai kya"
     },
   {
@@ -100,7 +104,10 @@
     "name": "Ishita Bhardwaj",
     "position": "Developer",
     "image": "./team_photos/ishitabhardwaj.jpg",
-    "socials": {},
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ishita-bhardwaj-/",
+      "twitter": "https://x.com/Ishita726166609"
+    },
     "quote": "pata nahi"
   },
   {
